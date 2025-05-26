@@ -1,0 +1,21 @@
+# Node.js Dependencies
+node_modules/
+    # ✅ Prevents pushing installed packages  
+
+# Environment Variables & Secrets
+.env                # ✅ Hides API keys, database credentials  
+
+# Logs & Debug Files
+*.log               # ✅ Ignores all log files  
+npm-debug.log       # ✅ Prevents npm debug logs  
+
+# Database & Build Files
+*.sqlite            # ✅ SQLite databases  
+*.db                # ✅ Other database files  
+dist/               # ✅ Built backend files  
+
+# System & Editor-Specific Files
+.DS_Store           # ✅ Mac system file  
+Thumbs.db           # ✅ Windows thumbnail cache  
+.vscode/            # ✅ VS Code settings  
+.idea/              # ✅ WebStorm settings  

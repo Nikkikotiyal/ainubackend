@@ -1,0 +1,3240 @@
+[{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e71"
+  },
+  "Moduleid": 1,
+  "MODLE NAME ": "ADT",
+  "REPORT NAME": "Admission Reports"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e72"
+  },
+  "Moduleid": 2,
+  "MODLE NAME ": "ADT",
+  "REPORT NAME": "Admission Reports"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e73"
+  },
+  "Moduleid": 3,
+  "MODLE NAME ": "ADT",
+  "REPORT NAME": "Current In patient"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e74"
+  },
+  "Moduleid": 4,
+  "MODLE NAME ": "ADT",
+  "REPORT NAME": "Census Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e75"
+  },
+  "Moduleid": 5,
+  "MODLE NAME ": "ADT",
+  "REPORT NAME": "Bed Status Reports"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e76"
+  },
+  "Moduleid": 6,
+  "MODLE NAME ": "ADT",
+  "REPORT NAME": "Package Status Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e77"
+  },
+  "Moduleid": 7,
+  "MODLE NAME ": "ADT",
+  "REPORT NAME": "Duplicate Activity Sheet"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e78"
+  },
+  "Moduleid": 8,
+  "MODLE NAME ": "ADT",
+  "REPORT NAME": "IP Discharge TAT Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e79"
+  },
+  "Moduleid": 9,
+  "MODLE NAME ": "ADT",
+  "REPORT NAME": "Print Label"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e7a"
+  },
+  "Moduleid": 10,
+  "MODLE NAME ": "ADT",
+  "REPORT NAME": "Doctor Wise Inpatient Chart"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e7b"
+  },
+  "Moduleid": 11,
+  "MODLE NAME ": "A/R",
+  "REPORT NAME": "Claimed_Raised"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e7c"
+  },
+  "Moduleid": 12,
+  "MODLE NAME ": "A/R",
+  "REPORT NAME": "\nClaim Received Amount Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e7d"
+  },
+  "Moduleid": 13,
+  "MODLE NAME ": "A/R",
+  "REPORT NAME": "Insurance Company Reports"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e7e"
+  },
+  "Moduleid": 14,
+  "MODLE NAME ": "A/R",
+  "REPORT NAME": "Received Amount MOP Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e7f"
+  },
+  "Moduleid": 15,
+  "MODLE NAME ": "A/R",
+  "REPORT NAME": "Company Wise Outstanding Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e80"
+  },
+  "Moduleid": 16,
+  "MODLE NAME ": "A/R",
+  "REPORT NAME": "Disallow Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e81"
+  },
+  "Moduleid": 17,
+  "MODLE NAME ": "A/R",
+  "REPORT NAME": "Company Outstanding Ageing Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e82"
+  },
+  "Moduleid": 18,
+  "MODLE NAME ": "A/R",
+  "REPORT NAME": "AR Ledger Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e83"
+  },
+  "Moduleid": 19,
+  "MODLE NAME ": "A/R",
+  "REPORT NAME": "CommonScroll"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e84"
+  },
+  "Moduleid": 20,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Common Scroll"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e85"
+  },
+  "Moduleid": 21,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Unused Deposit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e86"
+  },
+  "Moduleid": 22,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "UnBilled/Unsettled Bill Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e87"
+  },
+  "Moduleid": 23,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Patient Bill Status"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e88"
+  },
+  "Moduleid": 24,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "IP Ward Consumption Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e89"
+  },
+  "Moduleid": 25,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "IP Ward Consumption Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e8a"
+  },
+  "Moduleid": 26,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Miscellaneous Entry Details Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e8b"
+  },
+  "Moduleid": 27,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Cancel IP Investigation Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e8c"
+  },
+  "Moduleid": 28,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Cancel IP Investigation Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e8d"
+  },
+  "Moduleid": 29,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Package Consumable Breakup Details Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e8e"
+  },
+  "Moduleid": 30,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Package Services Breakup Details Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e8f"
+  },
+  "Moduleid": 31,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Expected Discharge Report Based On Package End Date"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e90"
+  },
+  "Moduleid": 32,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Change of Bed category report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e91"
+  },
+  "Moduleid": 33,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "IP Patient Bill Report Date Wise"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e92"
+  },
+  "Moduleid": 34,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Department Wise Revenue With Package"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e93"
+  },
+  "Moduleid": 35,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Pharmacy Return Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e94"
+  },
+  "Moduleid": 36,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Invoice Including Service Tax"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e95"
+  },
+  "Moduleid": 37,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "IP Consults Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e96"
+  },
+  "Moduleid": 38,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "TCS Collection Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e97"
+  },
+  "Moduleid": 39,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Estimation Comparison Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e98"
+  },
+  "Moduleid": 40,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Inpatient Service wise report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e99"
+  },
+  "Moduleid": 41,
+  "MODLE NAME ": "Billing ",
+  "REPORT NAME": "Patient Remark Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e9a"
+  },
+  "Moduleid": 42,
+  "MODLE NAME ": "DayCare",
+  "REPORT NAME": "DayCareWorklist"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e9b"
+  },
+  "Moduleid": 43,
+  "MODLE NAME ": "Emergency",
+  "REPORT NAME": "Common Scroll"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e9c"
+  },
+  "Moduleid": 44,
+  "MODLE NAME ": "Emergency",
+  "REPORT NAME": "Emergency Total Patient Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e9d"
+  },
+  "Moduleid": 45,
+  "MODLE NAME ": "Emergency",
+  "REPORT NAME": "Triage Patient Bill Status"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e9e"
+  },
+  "Moduleid": 46,
+  "MODLE NAME ": "Emergency",
+  "REPORT NAME": "Triage Discharge Cancellation Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6e9f"
+  },
+  "Moduleid": 47,
+  "MODLE NAME ": "Emergency",
+  "REPORT NAME": "Triage Dept Wise Test & Revenue"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ea0"
+  },
+  "Moduleid": 48,
+  "MODLE NAME ": "Emergency",
+  "REPORT NAME": "Reprint Barcode"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ea1"
+  },
+  "Moduleid": 49,
+  "MODLE NAME ": "Emergency",
+  "REPORT NAME": "Fractional Item Usage Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ea2"
+  },
+  "Moduleid": 50,
+  "MODLE NAME ": "Front Office ",
+  "REPORT NAME": "Common Scroll"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ea3"
+  },
+  "Moduleid": 51,
+  "MODLE NAME ": "Front Office ",
+  "REPORT NAME": "Expired Patient Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ea4"
+  },
+  "Moduleid": 52,
+  "MODLE NAME ": "Front Office ",
+  "REPORT NAME": "Equipment Schedule Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ea5"
+  },
+  "Moduleid": 53,
+  "MODLE NAME ": "Front Office ",
+  "REPORT NAME": "Doctor's Schedule Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ea6"
+  },
+  "Moduleid": 54,
+  "MODLE NAME ": "Front Office ",
+  "REPORT NAME": "Individual Plan Report "
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ea7"
+  },
+  "Moduleid": 55,
+  "MODLE NAME ": "Front Office ",
+  "REPORT NAME": "Credit Card Detail Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ea8"
+  },
+  "Moduleid": 56,
+  "MODLE NAME ": "Front Office ",
+  "REPORT NAME": "Pre-Surgery Estimate Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ea9"
+  },
+  "Moduleid": 57,
+  "MODLE NAME ": "Front Office ",
+  "REPORT NAME": "Online Health CheckUp Schedule Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eaa"
+  },
+  "Moduleid": 58,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Stock In Hand and As on Date Wise Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eab"
+  },
+  "Moduleid": 59,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Stock Movement Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eac"
+  },
+  "Moduleid": 60,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Stock Ledger Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ead"
+  },
+  "Moduleid": 61,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Stock In Transit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eae"
+  },
+  "Moduleid": 62,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Indent,PR,PO Closure Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eaf"
+  },
+  "Moduleid": 63,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Pending Purchase Req. Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eb0"
+  },
+  "Moduleid": 64,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Pending PO Reports"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eb1"
+  },
+  "Moduleid": 65,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "PO Approval Status Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eb2"
+  },
+  "Moduleid": 66,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "PO Detail Reports"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eb3"
+  },
+  "Moduleid": 67,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "PO Against Purchase Request Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eb4"
+  },
+  "Moduleid": 68,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "GRN Register Detailed Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eb5"
+  },
+  "Moduleid": 69,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Purchase Receipt Summary"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eb6"
+  },
+  "Moduleid": 70,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Purchase Receipt Summary Supplier Wise"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eb7"
+  },
+  "Moduleid": 71,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Purchase Receipt Detail Supplier Wise"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eb8"
+  },
+  "Moduleid": 72,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Purchase Receipt And Return Details Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eb9"
+  },
+  "Moduleid": 73,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Item Wise Purchase Receipt Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eba"
+  },
+  "Moduleid": 74,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Supplier Wise Net Purchase Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ebb"
+  },
+  "Moduleid": 75,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Purchase Return Summary Reports"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ebc"
+  },
+  "Moduleid": 76,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Adjustment Summary Station Wise"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ebd"
+  },
+  "Moduleid": 77,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Issue Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ebe"
+  },
+  "Moduleid": 78,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Store Item Consumption Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ebf"
+  },
+  "Moduleid": 79,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Indent Receipt Details Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ec0"
+  },
+  "Moduleid": 80,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Indent Return Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ec1"
+  },
+  "Moduleid": 81,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Non-Moving Item Report "
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ec2"
+  },
+  "Moduleid": 82,
+  "MODLE NAME ": "GeneralItems",
+  "REPORT NAME": "Item Master Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ec3"
+  },
+  "Moduleid": 83,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Item Wise Departmentwise Stock Status Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ec4"
+  },
+  "Moduleid": 84,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Sale And Stock In Hand Store Wise Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ec5"
+  },
+  "Moduleid": 85,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Stock Ledger Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ec6"
+  },
+  "Moduleid": 86,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Opening And Closing Stock Ledger Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ec7"
+  },
+  "Moduleid": 87,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Stock In Transit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ec8"
+  },
+  "Moduleid": 88,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Stock In Hand"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ec9"
+  },
+  "Moduleid": 89,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Fractional Item Stock In Hand Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eca"
+  },
+  "Moduleid": 90,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Price List"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ecb"
+  },
+  "Moduleid": 91,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Month End Stock In Hand and As on Date wise Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ecc"
+  },
+  "Moduleid": 92,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Stock In Hand Report Manufacturer Wise"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ecd"
+  },
+  "Moduleid": 93,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Facility Wise Month End Stock In Hand"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ece"
+  },
+  "Moduleid": 94,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Facility Wise Department Wise Month End Stock In Hand Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ecf"
+  },
+  "Moduleid": 95,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Stock Movement Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ed0"
+  },
+  "Moduleid": 96,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Stock In Hand Margin Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ed1"
+  },
+  "Moduleid": 97,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Stock In Hand Margin Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ed2"
+  },
+  "Moduleid": 98,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Rejected Stock Summary"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ed3"
+  },
+  "Moduleid": 99,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Rejected Stock Closure Reports"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ed4"
+  },
+  "Moduleid": 100,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Transferred Rejected Stock Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ed5"
+  },
+  "Moduleid": 101,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Indent Status Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ed6"
+  },
+  "Moduleid": 102,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Direct Reciept Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ed7"
+  },
+  "Moduleid": 103,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Pending Item Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ed8"
+  },
+  "Moduleid": 104,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Indent Return Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ed9"
+  },
+  "Moduleid": 105,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Indent Return From To Department Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eda"
+  },
+  "Moduleid": 106,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Indent Receipt Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6edb"
+  },
+  "Moduleid": 107,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Item Wise Indent Issue Return Report "
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6edc"
+  },
+  "Moduleid": 108,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Issue Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6edd"
+  },
+  "Moduleid": 109,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Pending Issue Details Item Wise"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ede"
+  },
+  "Moduleid": 110,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Pending Issue Summary Department Wise"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6edf"
+  },
+  "Moduleid": 111,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Expired Item Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ee0"
+  },
+  "Moduleid": 112,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Item Price Audit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ee1"
+  },
+  "Moduleid": 113,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Item Movement Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ee2"
+  },
+  "Moduleid": 114,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Slow Moving Items Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ee3"
+  },
+  "Moduleid": 115,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Fast Moving Items Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ee4"
+  },
+  "Moduleid": 116,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Non Moving Items Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ee5"
+  },
+  "Moduleid": 117,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "ABC Analysis Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ee6"
+  },
+  "Moduleid": 118,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Max Level Analysis Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ee7"
+  },
+  "Moduleid": 119,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Markup % And SP Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ee8"
+  },
+  "Moduleid": 120,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Item Master Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ee9"
+  },
+  "Moduleid": 121,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Formulary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eea"
+  },
+  "Moduleid": 122,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "SP/Markup Item Station Wise Detail Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eeb"
+  },
+  "Moduleid": 123,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "GRN Register Detailed Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eec"
+  },
+  "Moduleid": 124,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Purchase Receipt Summary Supplier Wise"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eed"
+  },
+  "Moduleid": 125,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Item Wise Purchase Receipt Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eee"
+  },
+  "Moduleid": 126,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Purchase Receipt Details Supplier Wise"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eef"
+  },
+  "Moduleid": 127,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Purchase Receipt Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ef0"
+  },
+  "Moduleid": 128,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Supplier Wise Net Purchase Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ef1"
+  },
+  "Moduleid": 129,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Purchase Return Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ef2"
+  },
+  "Moduleid": 130,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Purchase Return Summary Supplier Wise"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ef3"
+  },
+  "Moduleid": 131,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Purchase Return/Rejected Stock Return Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ef4"
+  },
+  "Moduleid": 132,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Facility Wise Store Consumption Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ef5"
+  },
+  "Moduleid": 133,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Item Wise Facility Wise Total Consumption Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ef6"
+  },
+  "Moduleid": 134,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Facility wise Departmentwise Total consumption Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ef7"
+  },
+  "Moduleid": 135,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Facility wise Departmentwise Return against IP consumption From the ward"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ef8"
+  },
+  "Moduleid": 136,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Fractional Consumption Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ef9"
+  },
+  "Moduleid": 137,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "IP Consumption Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6efa"
+  },
+  "Moduleid": 138,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "OP Consumption Detail report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6efb"
+  },
+  "Moduleid": 139,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Store Consumption Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6efc"
+  },
+  "Moduleid": 140,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Pending Purchase Order Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6efd"
+  },
+  "Moduleid": 141,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "PO Approval Status Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6efe"
+  },
+  "Moduleid": 142,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Purchase Order Supplier Wise"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6eff"
+  },
+  "Moduleid": 143,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "PO Register Details Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f00"
+  },
+  "Moduleid": 144,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "PO Register Details Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f01"
+  },
+  "Moduleid": 145,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "PO With And Without PR Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f02"
+  },
+  "Moduleid": 146,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Adjustment Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f03"
+  },
+  "Moduleid": 147,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Stock Audit Status Report "
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f04"
+  },
+  "Moduleid": 148,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Stock Audit Detail Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f05"
+  },
+  "Moduleid": 149,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Fractional Adjustment Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f06"
+  },
+  "Moduleid": 150,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Inter Facility Received/Return Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f07"
+  },
+  "Moduleid": 151,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Inter Facility Issued/Return Ack. Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f08"
+  },
+  "Moduleid": 152,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Inter Facility Pending Indent Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f09"
+  },
+  "Moduleid": 153,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Inter Facility Stock In Transit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f0a"
+  },
+  "Moduleid": 154,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Inter Facility Stock In Transit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f0b"
+  },
+  "Moduleid": 155,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Inter Facility Issue Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f0c"
+  },
+  "Moduleid": 156,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Pending Purchase Requisition Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f0d"
+  },
+  "Moduleid": 157,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Pending Purchase Requisition Detail Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f0e"
+  },
+  "Moduleid": 158,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Purchase Requisition Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f0f"
+  },
+  "Moduleid": 159,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Purchase Requisition Detailed Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f10"
+  },
+  "Moduleid": 160,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Facility Wise Stock Closing Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f11"
+  },
+  "Moduleid": 161,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "GRN Register"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f12"
+  },
+  "Moduleid": 162,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Facility Wise Month Wise Stock Ledger Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f13"
+  },
+  "Moduleid": 163,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "GST Surrender Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f14"
+  },
+  "Moduleid": 164,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Item wise Issue Receive Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f15"
+  },
+  "Moduleid": 165,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Consignee Stock In Hand Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f16"
+  },
+  "Moduleid": 166,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Consignee Expired Items Reports"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f17"
+  },
+  "Moduleid": 167,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Item Consumption Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f18"
+  },
+  "Moduleid": 168,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Consignee Item Return From To Station Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f19"
+  },
+  "Moduleid": 169,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Consignee Issue Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f1a"
+  },
+  "Moduleid": 170,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Consignee Purchase Receipt Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f1b"
+  },
+  "Moduleid": 171,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Consignee Purchase Return Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f1c"
+  },
+  "Moduleid": 172,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Consignee Markup % And Selling Price Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f1d"
+  },
+  "Moduleid": 173,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Consignee Item Issue Cancellation Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f1e"
+  },
+  "Moduleid": 174,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "CSSD Utilization Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f1f"
+  },
+  "Moduleid": 175,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "CSSD Sterilization Detail Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f20"
+  },
+  "Moduleid": 176,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Used Item Stock In Hand Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f21"
+  },
+  "Moduleid": 177,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Batch Modification Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f22"
+  },
+  "Moduleid": 178,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Interfacility Sales and Return Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f23"
+  },
+  "Moduleid": 179,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Indent, PR, PO Closure Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f24"
+  },
+  "Moduleid": 180,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Drug Profile"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f25"
+  },
+  "Moduleid": 181,
+  "MODLE NAME ": "Inventory",
+  "REPORT NAME": "Manufacturer Wise Item List Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f26"
+  },
+  "Moduleid": 182,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Group Printing"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f27"
+  },
+  "Moduleid": 183,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Report On Panic Result"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f28"
+  },
+  "Moduleid": 184,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Work List"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f29"
+  },
+  "Moduleid": 185,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "TAT Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f2a"
+  },
+  "Moduleid": 186,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Prelim TAT Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f2b"
+  },
+  "Moduleid": 187,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Lab Rejection Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f2c"
+  },
+  "Moduleid": 188,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Delta Check Variance Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f2d"
+  },
+  "Moduleid": 189,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Lab Audit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f2e"
+  },
+  "Moduleid": 190,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Out Sourced Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f2f"
+  },
+  "Moduleid": 191,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Reprint Barcode"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f30"
+  },
+  "Moduleid": 192,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Operation Audit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f31"
+  },
+  "Moduleid": 193,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Antibiotic Sensitivity Pattern"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f32"
+  },
+  "Moduleid": 194,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Aggregate Reports"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f33"
+  },
+  "Moduleid": 195,
+  "MODLE NAME ": "Lab",
+  "REPORT NAME": "Biopsy and Slide Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f34"
+  },
+  "Moduleid": 196,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Department Wise Test And Revenue"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f35"
+  },
+  "Moduleid": 197,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Doctor Wise Consults"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f36"
+  },
+  "Moduleid": 198,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Open Scroll Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f37"
+  },
+  "Moduleid": 199,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Daily Collection Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f38"
+  },
+  "Moduleid": 200,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "User Wise Collection Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f39"
+  },
+  "Moduleid": 201,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Test Done Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f3a"
+  },
+  "Moduleid": 202,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Department Wise Sub-Department Wise Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f3b"
+  },
+  "Moduleid": 203,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Unbilled IP Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f3c"
+  },
+  "Moduleid": 204,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Procedure Doctor Report For Out Patients"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f3d"
+  },
+  "Moduleid": 205,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Procedure Doctor Report For Preadmission/Emergency"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f3e"
+  },
+  "Moduleid": 206,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Physician Order Conversion Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f3f"
+  },
+  "Moduleid": 207,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Daily Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f40"
+  },
+  "Moduleid": 208,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Doctor New And Follow Up Patient Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f41"
+  },
+  "Moduleid": 209,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Key Performance Indicators (KPI) Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f42"
+  },
+  "Moduleid": 210,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Patient Foot Fall Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f43"
+  },
+  "Moduleid": 211,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "EMR Usage Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f44"
+  },
+  "Moduleid": 212,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Doctor And Department Wise Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f45"
+  },
+  "Moduleid": 213,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "MLC Detail Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f46"
+  },
+  "Moduleid": 214,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Common Discount Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f47"
+  },
+  "Moduleid": 215,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Template Audit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f48"
+  },
+  "Moduleid": 216,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Discharge Intimation Audit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f49"
+  },
+  "Moduleid": 217,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Financial Analysis Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f4a"
+  },
+  "Moduleid": 218,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Credit Card Detail Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f4b"
+  },
+  "Moduleid": 219,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Deposit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f4c"
+  },
+  "Moduleid": 220,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Order Tentative Bill Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f4d"
+  },
+  "Moduleid": 221,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Due Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f4e"
+  },
+  "Moduleid": 222,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Patient Bill Audit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f4f"
+  },
+  "Moduleid": 223,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Bill Wise Mode of Payment Breakup"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f50"
+  },
+  "Moduleid": 224,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Package Analysis Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f51"
+  },
+  "Moduleid": 225,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "OP/IP Price List"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f52"
+  },
+  "Moduleid": 226,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Equipment Charges Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f53"
+  },
+  "Moduleid": 227,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Financial Interface Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f54"
+  },
+  "Moduleid": 228,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Disease Registry"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f55"
+  },
+  "Moduleid": 229,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Invoice Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f56"
+  },
+  "Moduleid": 230,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Rate Contract Modification Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f57"
+  },
+  "Moduleid": 231,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "One MIS"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f58"
+  },
+  "Moduleid": 232,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Patient Ledger"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f59"
+  },
+  "Moduleid": 233,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Scroll Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f5a"
+  },
+  "Moduleid": 234,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "OP Refund Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f5b"
+  },
+  "Moduleid": 235,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "OP Discount Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f5c"
+  },
+  "Moduleid": 236,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Corporate Bill Summary Detail Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f5d"
+  },
+  "Moduleid": 237,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Corporate Patient Wise Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f5e"
+  },
+  "Moduleid": 238,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Non Corporate Patient Wise Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f5f"
+  },
+  "Moduleid": 239,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Doctor Consultation Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f60"
+  },
+  "Moduleid": 240,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Referral Consults Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f61"
+  },
+  "Moduleid": 241,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Doctor Wise Procedure Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f62"
+  },
+  "Moduleid": 242,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "New Old Patient Visit (Consultation Wise)"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f63"
+  },
+  "Moduleid": 243,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Referral Doctor All (External)"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f64"
+  },
+  "Moduleid": 244,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Referral Doctor All Detail (External)"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f65"
+  },
+  "Moduleid": 245,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Episode Doctor Procedure Wise Report (Sorted On Bill No.)"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f66"
+  },
+  "Moduleid": 246,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Patient Wise Service Count Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f67"
+  },
+  "Moduleid": 247,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Preventive Health Checkup Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f68"
+  },
+  "Moduleid": 248,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "PHC Detail Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f69"
+  },
+  "Moduleid": 249,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "PHC Sorting Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f6a"
+  },
+  "Moduleid": 250,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Report Sorting"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f6b"
+  },
+  "Moduleid": 251,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Investigation Booking"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f6c"
+  },
+  "Moduleid": 252,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Service Wise PHC Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f6d"
+  },
+  "Moduleid": 253,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Misc Item Bill Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f6e"
+  },
+  "Moduleid": 254,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "New Old Patient Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f6f"
+  },
+  "Moduleid": 255,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Pathology Report Status"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f70"
+  },
+  "Moduleid": 256,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Test And Parameter"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f71"
+  },
+  "Moduleid": 257,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Pharmacy Discount Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f72"
+  },
+  "Moduleid": 258,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "OP Sales Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f73"
+  },
+  "Moduleid": 259,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "OP Bill Register"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f74"
+  },
+  "Moduleid": 260,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Miscellaneous Bills Report (OP)"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f75"
+  },
+  "Moduleid": 261,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "TAT Consultation Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f76"
+  },
+  "Moduleid": 262,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "OP Pharmacy TAT Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f77"
+  },
+  "Moduleid": 263,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "User Wise OPD Registration Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f78"
+  },
+  "Moduleid": 264,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Free Bill report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f79"
+  },
+  "Moduleid": 265,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Bill Modification Audit Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f7a"
+  },
+  "Moduleid": 266,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Discount Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f7b"
+  },
+  "Moduleid": 267,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Emergency Discount Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f7c"
+  },
+  "Moduleid": 268,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Refund Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f7d"
+  },
+  "Moduleid": 269,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Bill Register"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f7e"
+  },
+  "Moduleid": 270,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Bill Detail Register"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f7f"
+  },
+  "Moduleid": 271,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Triage Bill Register"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f80"
+  },
+  "Moduleid": 272,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Surgery Breakup Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f81"
+  },
+  "Moduleid": 273,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Cancelled Investigations After Acknowledgement Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f82"
+  },
+  "Moduleid": 274,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Package Gain And Loss Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f83"
+  },
+  "Moduleid": 275,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Emergency Refund Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f84"
+  },
+  "Moduleid": 276,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Cheque In Hand Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f85"
+  },
+  "Moduleid": 277,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Admission Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f86"
+  },
+  "Moduleid": 278,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Census Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f87"
+  },
+  "Moduleid": 279,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Bed Status Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f88"
+  },
+  "Moduleid": 280,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Discharge Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f89"
+  },
+  "Moduleid": 281,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Current In Patient Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f8a"
+  },
+  "Moduleid": 282,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Procedure And Other Services Summary Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f8b"
+  },
+  "Moduleid": 283,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Patient Expiry Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f8c"
+  },
+  "Moduleid": 284,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP/ER Cancel Discharge Patient Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f8d"
+  },
+  "Moduleid": 285,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Discharge Patient Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f8e"
+  },
+  "Moduleid": 286,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Reason For Admission"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f8f"
+  },
+  "Moduleid": 287,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Admission Cancellation Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f90"
+  },
+  "Moduleid": 288,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Discharge Patient Revisit Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f91"
+  },
+  "Moduleid": 289,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Patient Transfer Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f92"
+  },
+  "Moduleid": 290,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Mortality Statistics"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f93"
+  },
+  "Moduleid": 291,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Event Template Documentation Compliance"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f94"
+  },
+  "Moduleid": 292,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Doctor And Ward Wise In Patient Chart Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f95"
+  },
+  "Moduleid": 293,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Patient-Wise BedType-Wise Stay Details"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f96"
+  },
+  "Moduleid": 294,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Ambulance Tracking Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f97"
+  },
+  "Moduleid": 295,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Patient Admission TAT Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f98"
+  },
+  "Moduleid": 296,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Sale Register"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f99"
+  },
+  "Moduleid": 297,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP TPA Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f9a"
+  },
+  "Moduleid": 298,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Corporate Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f9b"
+  },
+  "Moduleid": 299,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Package Detail Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f9c"
+  },
+  "Moduleid": 300,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Miscellaneous Bills Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f9d"
+  },
+  "Moduleid": 301,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "In Patient Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f9e"
+  },
+  "Moduleid": 302,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Consults Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6f9f"
+  },
+  "Moduleid": 303,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Pharmacy TAT Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fa0"
+  },
+  "Moduleid": 304,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Transfer Of Care"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fa1"
+  },
+  "Moduleid": 305,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Surgery Consumable Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fa2"
+  },
+  "Moduleid": 306,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "RMO Handover Supervisor Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fa3"
+  },
+  "Moduleid": 307,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Patient Death Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fa4"
+  },
+  "Moduleid": 308,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Un-Verify Discharge Summary Report "
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fa5"
+  },
+  "Moduleid": 309,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Admission Request Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fa6"
+  },
+  "Moduleid": 310,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Chief Cashier"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fa7"
+  },
+  "Moduleid": 311,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Payment Reconciliation"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fa8"
+  },
+  "Moduleid": 312,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Discount Approval"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fa9"
+  },
+  "Moduleid": 313,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Chief Cashier For Common Scroll"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6faa"
+  },
+  "Moduleid": 314,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Patient Portal Payment Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fab"
+  },
+  "Moduleid": 315,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "NEFT/RTGS Refund Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fac"
+  },
+  "Moduleid": 316,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Facilitators Revenue Summary"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fad"
+  },
+  "Moduleid": 317,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Patient Referral Ananlysis Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fae"
+  },
+  "Moduleid": 318,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Company/TPA Wise Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6faf"
+  },
+  "Moduleid": 319,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Referral Doctor Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fb0"
+  },
+  "Moduleid": 320,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "TPA Corporate Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fb1"
+  },
+  "Moduleid": 321,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Corporate Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fb2"
+  },
+  "Moduleid": 322,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Custom Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fb3"
+  },
+  "Moduleid": 323,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "New Patients Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fb4"
+  },
+  "Moduleid": 324,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Old Patients Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fb5"
+  },
+  "Moduleid": 325,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Born Babies Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fb6"
+  },
+  "Moduleid": 326,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Family Plan Service Wise Net Revenue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fb7"
+  },
+  "Moduleid": 327,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "CRM Discount Reason Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fb8"
+  },
+  "Moduleid": 328,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Family Plan Details Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fb9"
+  },
+  "Moduleid": 329,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "International Patients Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fba"
+  },
+  "Moduleid": 330,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Registration Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fbb"
+  },
+  "Moduleid": 331,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Maternity Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fbc"
+  },
+  "Moduleid": 332,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Pre-Registration Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fbd"
+  },
+  "Moduleid": 333,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Total Consumption"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fbe"
+  },
+  "Moduleid": 334,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Store Consumption"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fbf"
+  },
+  "Moduleid": 335,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Consumption Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fc0"
+  },
+  "Moduleid": 336,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Consumption Report With Package"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fc1"
+  },
+  "Moduleid": 337,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Ward Consumable Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fc2"
+  },
+  "Moduleid": 338,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Revenue With Material Report For Discharge"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fc3"
+  },
+  "Moduleid": 339,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "IP Revenue With Material Report For Admitted"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fc4"
+  },
+  "Moduleid": 340,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Consumption Interface Ledger"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fc5"
+  },
+  "Moduleid": 341,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "GRN Interface Ledger List"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fc6"
+  },
+  "Moduleid": 342,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Inventory Sales Vs Purchase Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fc7"
+  },
+  "Moduleid": 343,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "GRN Finance Verification"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fc8"
+  },
+  "Moduleid": 344,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Pharmacy Sales Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fc9"
+  },
+  "Moduleid": 345,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Pharmacy Issue Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fca"
+  },
+  "Moduleid": 346,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Material Margin Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fcb"
+  },
+  "Moduleid": 347,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "HSN Wise GST Sale Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fcc"
+  },
+  "Moduleid": 348,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Invoice Wise GST Sale Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fcd"
+  },
+  "Moduleid": 349,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Restricted Items Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fce"
+  },
+  "Moduleid": 350,
+  "MODLE NAME ": "MIS",
+  "REPORT NAME": "Annual Sales Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fcf"
+  },
+  "Moduleid": 351,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fd0"
+  },
+  "Moduleid": 352,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "Chart In/Out Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fd1"
+  },
+  "Moduleid": 353,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "ICD Index For In Patient"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fd2"
+  },
+  "Moduleid": 354,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "EMR Visit Record"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fd3"
+  },
+  "Moduleid": 355,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "Patient Demographics Change"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fd4"
+  },
+  "Moduleid": 356,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "Patient Record Movement Register"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fd5"
+  },
+  "Moduleid": 357,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "Record Request Issue/Receipt Register Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fd6"
+  },
+  "Moduleid": 358,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "Record Return/Acknowledged Register Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fd7"
+  },
+  "Moduleid": 359,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "Patient Discharge Checklist Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fd8"
+  },
+  "Moduleid": 360,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "Lab Report View log by Physician"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fd9"
+  },
+  "Moduleid": 361,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "MRD Checklist Master"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fda"
+  },
+  "Moduleid": 362,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "Patient Checklist"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fdb"
+  },
+  "Moduleid": 363,
+  "MODLE NAME ": "MRD",
+  "REPORT NAME": "Custom Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fdc"
+  },
+  "Moduleid": 364,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Diet List"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fdd"
+  },
+  "Moduleid": 365,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Pending Requisition For In-Patient"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fde"
+  },
+  "Moduleid": 366,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Pending Report Status"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fdf"
+  },
+  "Moduleid": 367,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Vulnerable Patient Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fe0"
+  },
+  "Moduleid": 368,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Long Stay Patient"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fe1"
+  },
+  "Moduleid": 369,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "IP Consumption Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fe2"
+  },
+  "Moduleid": 370,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Reprint Barcode"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fe3"
+  },
+  "Moduleid": 371,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Fractional Items Usage Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fe4"
+  },
+  "Moduleid": 372,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Equipment Schedule Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fe5"
+  },
+  "Moduleid": 373,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Nursing Endorsement/Handover Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fe6"
+  },
+  "Moduleid": 374,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Diet Order TAT Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fe7"
+  },
+  "Moduleid": 375,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Investigation Deletion Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fe8"
+  },
+  "Moduleid": 376,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Ventilator & Oxygenation Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fe9"
+  },
+  "Moduleid": 377,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "Adverse Event Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fea"
+  },
+  "Moduleid": 378,
+  "MODLE NAME ": "Nursing",
+  "REPORT NAME": "IPView"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6feb"
+  },
+  "Moduleid": 379,
+  "MODLE NAME ": "OT",
+  "REPORT NAME": "OT Schedule Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fec"
+  },
+  "Moduleid": 380,
+  "MODLE NAME ": "OT",
+  "REPORT NAME": "OT Schedule Report ON Date"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fed"
+  },
+  "Moduleid": 381,
+  "MODLE NAME ": "OT",
+  "REPORT NAME": "Fractional Item Usage Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fee"
+  },
+  "Moduleid": 382,
+  "MODLE NAME ": "OT",
+  "REPORT NAME": "OT Surgery Detailed Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fef"
+  },
+  "Moduleid": 383,
+  "MODLE NAME ": "OT",
+  "REPORT NAME": "Surgery Consumable Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ff0"
+  },
+  "Moduleid": 384,
+  "MODLE NAME ": "OT",
+  "REPORT NAME": "Cancelled Surgery After Billing"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ff1"
+  },
+  "Moduleid": 385,
+  "MODLE NAME ": "OT",
+  "REPORT NAME": "OT Abort Surgery"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ff2"
+  },
+  "Moduleid": 386,
+  "MODLE NAME ": "OT",
+  "REPORT NAME": "Surgery Posted Deviation"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ff3"
+  },
+  "Moduleid": 387,
+  "MODLE NAME ": "OT",
+  "REPORT NAME": "OT Bill"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ff4"
+  },
+  "Moduleid": 388,
+  "MODLE NAME ": "Pharmacy",
+  "REPORT NAME": "Common Scroll"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ff5"
+  },
+  "Moduleid": 389,
+  "MODLE NAME ": "Pharmacy",
+  "REPORT NAME": "OP Pharmacy Sales"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ff6"
+  },
+  "Moduleid": 390,
+  "MODLE NAME ": "Pharmacy",
+  "REPORT NAME": "Gst Wise Medicine Sale Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ff7"
+  },
+  "Moduleid": 391,
+  "MODLE NAME ": "Pharmacy",
+  "REPORT NAME": "IP Pharmacy Register"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ff8"
+  },
+  "Moduleid": 392,
+  "MODLE NAME ": "Pharmacy",
+  "REPORT NAME": "IP Issue/Return Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ff9"
+  },
+  "Moduleid": 393,
+  "MODLE NAME ": "Pharmacy",
+  "REPORT NAME": "IP Pending Requistions"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ffa"
+  },
+  "Moduleid": 394,
+  "MODLE NAME ": "Pharmacy",
+  "REPORT NAME": "High Risk Medicine Consumption"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ffb"
+  },
+  "Moduleid": 395,
+  "MODLE NAME ": "Pharmacy",
+  "REPORT NAME": "Patient Wise Consumption Report "
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ffc"
+  },
+  "Moduleid": 396,
+  "MODLE NAME ": "Pharmacy",
+  "REPORT NAME": "Statutory Prescription Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ffd"
+  },
+  "Moduleid": 397,
+  "MODLE NAME ": "Pharmacy",
+  "REPORT NAME": "Item Bounce Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6ffe"
+  },
+  "Moduleid": 398,
+  "MODLE NAME ": "Pharmacy",
+  "REPORT NAME": "Item Wise Pending IP Orders Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a6fff"
+  },
+  "Moduleid": 399,
+  "MODLE NAME ": "Pharmacy",
+  "REPORT NAME": "Drug Profile"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a7000"
+  },
+  "Moduleid": 400,
+  "MODLE NAME ": "SampleCollection",
+  "REPORT NAME": "Work List"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a7001"
+  },
+  "Moduleid": 401,
+  "MODLE NAME ": "SampleCollection",
+  "REPORT NAME": "TAT Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a7002"
+  },
+  "Moduleid": 402,
+  "MODLE NAME ": "SampleCollection",
+  "REPORT NAME": "Prelim TAT Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a7003"
+  },
+  "Moduleid": 403,
+  "MODLE NAME ": "SampleCollection",
+  "REPORT NAME": "Reprint Barcode"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a7004"
+  },
+  "Moduleid": 404,
+  "MODLE NAME ": "SampleCollection",
+  "REPORT NAME": "Home Visit Sample Collection Report"
+},
+{
+  "_id": {
+    "$oid": "681262a5ea4a52021b9a7005"
+  },
+  "Moduleid": 405,
+  "MODLE NAME ": "SampleCollection",
+  "REPORT NAME": "Phlebotomist IP/ER Worksheet"
+}]
