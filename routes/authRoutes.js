@@ -11,11 +11,12 @@ router.get("/get-users", authController.getUsers);
 router.get("/getUsers/:location", authController.getUsersByLocation);
 router.get("/getModule", authController.getModule);
 router.post("/save-modules", authController.saveModule);
-router.get("/getUserModules/:userId", authController.getUserModulesByUserId);
+router.get("/getUserModulesByUserID/:userId", authController.getUserModulesByUserId);
 router.get("/getUserById/:userId", authController.getUserById);
+router.get("/getDashUserModuleByUserId/:userId",authController.getDashUserModuleByUserId)
 router.put("/updateUserById/:userId", authController.updateUser);
 router.post(
-  "/changePassword",
+  "/changePassword",  
   authenticateToken,
   authController.changePassword
 );

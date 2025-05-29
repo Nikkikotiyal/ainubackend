@@ -6,6 +6,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
 const sendEmail = require("../utils/sendEmail");
+const { ObjectId } = require("mongoose").Types;
 const app = express();
 
 exports.loginUser = async (req, res) => {
@@ -158,62 +159,10 @@ exports.getModule = async (req, res) => {
   }
 };
 
-// controllers/moduleController.js or routes/moduleRoutes.js
-
-// exports.saveModule = async (req, res) => {
-//   try {
-//     const userModules = req.body;
-
-//     if (!Array.isArray(userModules) || userModules.length === 0) {
-//       return res.status(400).json({ message: 'No modules received' });
-//     }
-
-//     console.log('Received modules:', userModules);
-
-//     await UserModule.insertMany(userModules);
-
-//     res.status(200).json({ message: 'Modules saved successfully' });
-//   } catch (error) {
-//     console.error('Error saving modules:', error);
-//     res.status(500).json({ message: 'Server error' });
-//   }
-// };
-
-// exports.saveModule = async (req, res) => {
-//   try {
-//     const userId = new mongoose.Types.ObjectId(req.body.userId); // Ensure ObjectId
-//     const modules = req.body.modules;
-
-//     if (!userId || !Array.isArray(modules) || modules.length === 0) {
-//       return res.status(400).json({ message: "Invalid input: Missing userId or modules." });
-//     }
-
-//     // 🔥 Step 1: Delete old modules before saving new selection
-//     await UserModule.deleteMany({ userId });
-
-//     // 🔥 Step 2: Insert new selected modules
-//     const newModules = await UserModule.insertMany(
-//       modules.map(mod => ({
-//         userId,
-//         Moduleid: mod.Moduleid, // ✅ Ensure `Moduleid` is stored as defined in schema
-//         MODLE_NAME: mod.MODLE_NAME,
-//         REPORT_NAME: mod.REPORT_NAME,
-//       }))
-//     );
-
-//     // 🔥 Step 3: Retrieve saved modules & ensure `Moduleid` is returned correctly
-//     const savedModules = await UserModule.find({ userId }).select("Moduleid MODLE_NAME REPORT_NAME userId");
-
-//     res.status(200).json({ message: "Modules updated successfully!", savedModules });
-
-//   } catch (error) {
-//     console.error("Error saving modules:", error);
-//     res.status(500).json({ message: "Server error", error: error.message });
-//   }
-// };
-
 exports.saveModule = async (req, res) => {
   try {
+    console.log("📦 Received Payload:", JSON.stringify(req.body, null, 2)); // ✅ Debugging step
+
     const userId = req.body.userId;
     const modules = req.body.modules;
 
@@ -221,60 +170,33 @@ exports.saveModule = async (req, res) => {
       return res.status(400).json({ message: "No modules received" });
     }
 
-    // ✅ Step 1: Ensure Delete Works
-    const deleteResult = await UserModule.deleteMany({
-      userId: new mongoose.Types.ObjectId(userId),
+    // ✅ Step 1: Delete Existing Modules
+    const deleteResult = await UserModule.deleteMany({ userId: new mongoose.Types.ObjectId(userId) });
+    console.log("🗑️ Deleted Count:", deleteResult.deletedCount);
+
+    // ✅ Step 2: Clean Data Before Insert
+    const userModules = modules.map((module) => {
+      delete module._id; // ✅ Prevent duplicate `_id` errors
+      return {
+        Moduleid: module.Moduleid,
+        userId: new mongoose.Types.ObjectId(userId),
+       Selected: Boolean(module.Selected), // 🔥 Ensures correct Boolean conversion
+      };
     });
-    console.log("Deleted Count:", deleteResult.deletedCount);
 
-    if (deleteResult.deletedCount === 0) {
-      console.warn("No records were deleted—check userId format.");
-    }
+    // 🔥 **Debugging Log Before Insert**
+    console.log("📝 Final Insert Payload to MongoDB:", JSON.stringify(userModules, null, 2));
 
-    // ✅ Step 2: Remove `_id` Before Inserting New Modules
-    const userModules = modules.map(({ _id, ...mod }) => ({
-      ...mod,
-      userId: new mongoose.Types.ObjectId(userId),
-    }));
-
-    // ✅ Step 3: Insert New Modules AFTER Delete
+    // ✅ Step 3: Insert New Modules
     await UserModule.insertMany(userModules);
 
-    res.status(200).json({ message: "Modules saved successfully" });
+    res.status(200).json({ message: "Modules saved successfully!" });
   } catch (error) {
     console.error("❌ Error saving modules:", error);
     res.status(500).json({ message: "Server error", error: error.message });
   }
 };
-// exports.getUserModulesByUserId = async (req, res) => {
-//   const userId = req.params.userId;
 
-//   try {
-//     // Ensure the userId is valid
-//     if (!mongoose.Types.ObjectId.isValid(userId)) {
-//       return res.status(400).json({ message: "Invalid user ID" });
-//     }
-
-//     const user = await User.findById(userId);
-
-//     if (!user) {
-//       return res.status(404).json({ message: "User not found" });
-//     }
-
-//     const modules = await UserModule.find({ userId: userId });
-
-//     if (!modules || modules.length === 0) {
-//       return res.status(404).json({ message: 'No modules found for this user' });
-//     }
-
-//     console.log("backend module", module);
-
-//     res.status(200).json({ modules: modules }); // Assuming "modules" is saved in DB
-//   } catch (err) {
-//     console.error("Error fetching user modules:", err);
-//     res.status(500).json({ error: "Server error" });
-//   }
-// };
 exports.getUserModulesByUserId = async (req, res) => {
   const userId = req.params.userId;
 
@@ -300,6 +222,52 @@ exports.getUserModulesByUserId = async (req, res) => {
     res.status(500).json({ error: "Server error" });
   }
 };
+
+exports.getDashUserModuleByUserId = async (req, res) => {
+  const userId = req.params.userId;
+  console.log("🔎 Received userId:", userId);
+
+  try {
+    if (!mongoose.Types.ObjectId.isValid(userId)) {
+      return res.status(400).json({ message: "Invalid user ID" });
+    }
+
+    console.log("🔎 Starting aggregation...");
+
+    const modules = await UserModule.aggregate([
+      { $match: { userId: new mongoose.Types.ObjectId(userId)},
+     },
+      {
+        $lookup: {
+          from: "module",
+          localField: "moduleid",
+          foreignField: "moduleid",
+          as: "moduleDetails"
+        }
+      },
+      { $unwind: { path: "$moduleDetails", preserveNullAndEmptyArrays: true } },
+      {
+        $project: {
+          userId: 1,
+          moduleid_in_userModule: "$moduleid",
+          moduleid_in_module: "$moduleDetails.moduleid",
+          MODLE_NAME: "$moduleDetails.MODLE NAME",
+          REPORT_NAME: "$moduleDetails.REPORT NAME",
+          Selected: 1,
+          moduleDetails: 1
+        }
+      }
+    ]);
+
+    console.log("✅ Aggregation done.");
+    res.status(200).json({ modules });
+  } catch (err) {
+    console.error("❌ Error in aggregation:", err);
+    res.status(500).json({ error: "Server error" });
+  }
+};
+
+
 
 exports.updateUser = async (req, res) => {
   try {
@@ -347,65 +315,121 @@ exports.getUserById = async (req, res) => {
       .json({ error: "❌ Failed to fetch user", details: err.message });
   }
 };
+//this api for changepassword form
+// exports.changePassword = async (req, res) => {
+//   try {
+//     const { currentPassword, newPassword, confirmPassword } = req.body;
+//     console.log(" req.user", req.user);
+//     let _id = req.user.userId;
+
+//     console.log("📩 Incoming request body:", req.body); // ✅ Debugging: Log incoming data
+
+//     // ✅ Validate input
+//     if (
+//       !currentPassword?.trim() ||
+//       !newPassword?.trim() ||
+//       !confirmPassword?.trim()
+//     ) {
+//       return res.status(400).json({ message: "❌ All fields are required!" });
+//     }
+
+//     // ✅ Check if new password matches confirm password
+//     if (newPassword !== confirmPassword) {
+//       return res.status(400).json({
+//         message: "❌ New password and confirm password do not match!",
+//       });
+//     }
+
+//     // ✅ Find user by email (Case-insensitive)
+//     const user = await User.findOne({
+//       _id,
+//     }).select("+Password"); // ✅ Explicitly fetch Password field
+//     if (!user) {
+//       return res.status(404).json({ message: "❌ User not found!" });
+//     }
+
+//     if (!user.Password) {
+//       return res
+//         .status(400)
+//         .json({ message: "❌ No password set for this user!" });
+//     }
+
+//     // ✅ Verify current password
+//     const isMatch = await bcrypt.compare(currentPassword, user.Password);
+//     if (!isMatch) {
+//       return res
+//         .status(400)
+//         .json({ message: "❌ Incorrect current password!" });
+//     }
+
+//     // ✅ Hash new password
+//     const hashedPassword = await bcrypt.hash(newPassword, 12);
+//     user.Password = hashedPassword;
+//     await user.save();
+
+//     res
+//       .status(200)
+//       .json({ success: true, message: "✅ Password changed successfully!" });
+//   } catch (err) {
+//     console.error("❌ Error changing password:", err);
+//     res
+//       .status(500)
+//       .json({ error: "❌ Failed to change password", details: err.message });
+//   }
+// };
+
 exports.changePassword = async (req, res) => {
   try {
     const { currentPassword, newPassword, confirmPassword } = req.body;
-    console.log(" req.user", req.user);
     let _id = req.user.userId;
 
-    console.log("📩 Incoming request body:", req.body); // ✅ Debugging: Log incoming data
+    console.log("🔎 Checking Database for User ID:", _id);
 
-    // ✅ Validate input
-    if (
-      !currentPassword?.trim() ||
-      !newPassword?.trim() ||
-      !confirmPassword?.trim()
-    ) {
-      return res.status(400).json({ message: "❌ All fields are required!" });
-    }
+    // ✅ Convert User ID to ObjectId format correctly
+    const objectId =
+      req.userId instanceof ObjectId ? req.userId : new ObjectId(req.userId);
 
-    // ✅ Check if new password matches confirm password
-    if (newPassword !== confirmPassword) {
-      return res.status(400).json({
-        message: "❌ New password and confirm password do not match!",
-      });
-    }
+    console.log("🔎 Converted User ID:", objectId);
 
-    // ✅ Find user by email (Case-insensitive)
-    const user = await User.findOne({
-      _id,
-    }).select("+Password"); // ✅ Explicitly fetch Password field
+    // ✅ Fetch user from the database
+    const user = await User.findOne({ _id: objectId }).select("+Password");
+    console.log("🔎 User Found:", user);
+
     if (!user) {
-      return res.status(404).json({ message: "❌ User not found!" });
+      console.error("❌ User Not Found!");
+      return res.status(404).json({ error: "User not found" });
     }
 
-    if (!user.Password) {
-      return res
-        .status(400)
-        .json({ message: "❌ No password set for this user!" });
-    }
-
-    // ✅ Verify current password
+    // 🔐 Verify Current Password
     const isMatch = await bcrypt.compare(currentPassword, user.Password);
     if (!isMatch) {
-      return res
-        .status(400)
-        .json({ message: "❌ Incorrect current password!" });
+      return res.status(400).json({ error: "Current password is incorrect" });
     }
 
-    // ✅ Hash new password
-    const hashedPassword = await bcrypt.hash(newPassword, 12);
-    user.Password = hashedPassword;
-    await user.save();
+    // 🔐 Validate New Password Match
+    if (newPassword !== confirmPassword) {
+      return res.status(400).json({ error: "New passwords do not match" });
+    }
 
-    res
-      .status(200)
-      .json({ success: true, message: "✅ Password changed successfully!" });
-  } catch (err) {
-    console.error("❌ Error changing password:", err);
-    res
-      .status(500)
-      .json({ error: "❌ Failed to change password", details: err.message });
+    // 🔄 Hash New Password & Update User
+    const hashedPassword = await bcrypt.hash(newPassword, 12);
+    const result = await User.updateOne(
+      { _id: objectId },
+      { $set: { Password: hashedPassword } }
+    );
+
+    console.log("🛠️ Update Result:", result);
+
+    // ✅ Fetch updated password after update
+    const updatedUser = await User.findOne({ _id: objectId }).select(
+      "+Password"
+    );
+    console.log("🔎 Updated Password:", updatedUser.Password);
+
+    res.status(200).json({ message: "Password changed successfully!" });
+  } catch (error) {
+    console.error("❌ Password Change Error:", error);
+    res.status(500).json({ error: "Server error", details: error.message });
   }
 };
 
@@ -543,11 +567,7 @@ exports.resendOtp = async (req, res) => {
     const newOtp = Math.floor(1000 + Math.random() * 9000);
     user.otp = newOtp;
     user.otpExpires = Date.now() + 5 * 60 * 1000; // Set expiry (5 minutes)
-
-    await User.updateOne(
-      { Email: user.Email },
-      { $set: { otp: newOtp, otpExpires: user.otpExpires } }
-    );
+    await user.save();
 
     console.log("✅ New OTP generated:", newOtp);
 
