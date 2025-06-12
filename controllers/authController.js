@@ -6,8 +6,10 @@ const express = require("express");
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
 const sendEmail = require("../utils/sendEmail");
+const AdtAdmission = require("../models/ADTAdmissionReport");
 const { ObjectId } = require("mongoose").Types;
 const app = express();
+const RequestLog = require("../models/logmodel"); // ✅ Check this path
 
 exports.loginUser = async (req, res) => {
   const { emailOrUsername, password } = req.body;
@@ -49,7 +51,7 @@ exports.getUsers = async (req, res) => {
       $or: [{ isDeleted: false }, { isDeleted: { $exists: false } }],
     });
 
-    console.log(users);
+    // console.log(users);
     res.status(200).json(users);
   } catch (error) {
     console.error("Error fetching users:", error);
@@ -149,12 +151,12 @@ exports.signupUser = async (req, res) => {
 
 exports.getModule = async (req, res) => {
   try {
-    console.log("API hit /getModule"); // debug
+    // console.log("API hit /getModule"); // debug
     const module = await Module.find({});
-    console.log(module); // see what’s returned
+    // console.log(module); // see what’s returned
     res.status(200).json(module);
   } catch (error) {
-    console.error("Error fetching modules:", error);
+    // console.error("Error fetching modules:", error);
     res.status(500).json({ error: "Failed to fetch modules" });
   }
 };
@@ -171,7 +173,9 @@ exports.saveModule = async (req, res) => {
     }
 
     // ✅ Step 1: Delete Existing Modules
-    const deleteResult = await UserModule.deleteMany({ userId: new mongoose.Types.ObjectId(userId) });
+    const deleteResult = await UserModule.deleteMany({
+      userId: new mongoose.Types.ObjectId(userId),
+    });
     console.log("🗑️ Deleted Count:", deleteResult.deletedCount);
 
     // ✅ Step 2: Clean Data Before Insert
@@ -180,12 +184,15 @@ exports.saveModule = async (req, res) => {
       return {
         Moduleid: module.Moduleid,
         userId: new mongoose.Types.ObjectId(userId),
-       Selected: Boolean(module.Selected), // 🔥 Ensures correct Boolean conversion
+        Selected: Boolean(module.selected), // 🔥 Ensures correct Boolean conversion
       };
     });
 
     // 🔥 **Debugging Log Before Insert**
-    console.log("📝 Final Insert Payload to MongoDB:", JSON.stringify(userModules, null, 2));
+    console.log(
+      "📝 Final Insert Payload to MongoDB:",
+      JSON.stringify(userModules, null, 2)
+    );
 
     // ✅ Step 3: Insert New Modules
     await UserModule.insertMany(userModules);
@@ -235,28 +242,31 @@ exports.getDashUserModuleByUserId = async (req, res) => {
     console.log("🔎 Starting aggregation...");
 
     const modules = await UserModule.aggregate([
-      { $match: { userId: new mongoose.Types.ObjectId(userId)},
-     },
+      {
+        $match: { userId: new mongoose.Types.ObjectId(userId), Selected: true },
+      },
+
       {
         $lookup: {
           from: "module",
-          localField: "moduleid",
-          foreignField: "moduleid",
-          as: "moduleDetails"
-        }
+          localField: "Moduleid",
+          foreignField: "Moduleid",
+          as: "moduleDetails",
+        },
       },
       { $unwind: { path: "$moduleDetails", preserveNullAndEmptyArrays: true } },
+
       {
         $project: {
           userId: 1,
-          moduleid_in_userModule: "$moduleid",
+          moduleid_in_userModule: "$Moduleid",
           moduleid_in_module: "$moduleDetails.moduleid",
-          MODLE_NAME: "$moduleDetails.MODLE NAME",
+          MODLE_NAME: "$moduleDetails['MODLE NAME']",
           REPORT_NAME: "$moduleDetails.REPORT NAME",
           Selected: 1,
-          moduleDetails: 1
-        }
-      }
+          moduleDetails: 1,
+        },
+      },
     ]);
 
     console.log("✅ Aggregation done.");
@@ -266,8 +276,6 @@ exports.getDashUserModuleByUserId = async (req, res) => {
     res.status(500).json({ error: "Server error" });
   }
 };
-
-
 
 exports.updateUser = async (req, res) => {
   try {
@@ -526,7 +534,7 @@ exports.verifyOtp = async (req, res) => {
       Email: { $regex: new RegExp(`^${Email}$`, "i") },
     });
 
-    console.log("🛠️ Database lookup result:", user); // ✅ Logs user object
+    // console.log("🛠️ Database lookup result:", user); // ✅ Logs user object
 
     if (!user) {
       console.log("❌ No user found for email:", Email);
@@ -569,7 +577,7 @@ exports.resendOtp = async (req, res) => {
     user.otpExpires = Date.now() + 5 * 60 * 1000; // Set expiry (5 minutes)
     await user.save();
 
-    console.log("✅ New OTP generated:", newOtp);
+    // console.log("✅ New OTP generated:", newOtp);
 
     // Send OTP via email (if configured)
     await sendEmail(user.Email, `Your new OTP is: ${newOtp}`);
@@ -710,3 +718,92 @@ exports.sendOtp = async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 };
+
+exports.getAdtAdmissionReport = async (req, res) => {
+  try {
+    // console.log("API hit /AdtAdmissionReport"); // debug
+    const data = await AdtAdmission.find().limit(100);
+    // console.log(data); // see what’s returned
+    res.status(200).json(data);
+  } catch (error) {
+    console.error("Error fetching admission report:", error);
+    res.status(500).json({ error: "Failed to fetch admission report" });
+  }
+};
+
+exports.getLogs = async (req, res) => {
+  try {
+    const logs = await RequestLog.find().sort({ timestamp: -1 });
+    res.json(logs); // ✅ Send logs with user emails
+  } catch (error) {
+    res.status(500).json({ error: "Failed to fetch logs" });
+  }
+};
+
+exports.addModule = async (req, res) => {
+  try {
+    const { Moduleid, "MODLE NAME ": MODLE_NAME, "REPORT NAME": REPORT_NAME } = req.body; // ✅ Space included
+
+    if (!Moduleid || !MODLE_NAME || !REPORT_NAME) {
+      return res.status(400).json({ error: "All fields are required!" });
+    }
+
+    const existingModule = await Module.findOne({ Moduleid });
+    if (existingModule) {
+      return res.status(409).json({ error: "Module ID already exists!" });
+    }
+
+    const newModule = new Module({
+      Moduleid,
+      "MODLE NAME ": MODLE_NAME, // ✅ Match getModule format
+      "REPORT NAME": REPORT_NAME
+    });
+    await newModule.save();
+
+    res.status(201).json({
+      message: "Module added successfully!",
+      data: {
+        Moduleid: newModule.Moduleid,
+        "MODLE NAME ": newModule["MODLE NAME "], // ✅ Ensure exact key format
+        "REPORT NAME": newModule["REPORT NAME"]
+      }
+    });
+  } catch (error) {
+    console.error("❌ Error Adding Module:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.updateModule = async (req, res) => {
+  try {
+    const { Moduleid, "MODLE NAME ": MODLE_NAME, "REPORT NAME": REPORT_NAME } = req.body;
+
+    if (!Moduleid || !MODLE_NAME || !REPORT_NAME) {
+      return res.status(400).json({ error: "All fields are required." });
+    }
+
+    const updatedModule = await Module.findOneAndUpdate(
+      { Moduleid }, // ✅ search by Moduleid
+      {
+        "MODLE NAME ": MODLE_NAME,
+        "REPORT NAME": REPORT_NAME,
+      },
+      { new: true } // ✅ return updated document
+    );
+
+    if (!updatedModule) {
+      return res.status(404).json({ error: "Module not found." });
+    }
+
+    res.status(200).json({
+      message: "Module updated successfully!",
+      data: updatedModule,
+    });
+  } catch (error) {
+    console.error("❌ Error updating module:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+
+

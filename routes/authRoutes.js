@@ -31,10 +31,26 @@ router.post(
   authController.verifyOtp
 );
 
+router.get('/data', (req, res) => {
+  res.json({
+    success: true,
+    message: '🔐 Secure API accessed over HTTPS',
+    data: {
+      id: 1,
+      name: 'Secure Resource',
+      timestamp: new Date(),
+    },
+  });
+});
+
 router.post("/sendOtp", authController.sendOtp);
 router.post("/resetPassword", authenticateToken, authController.resetPassword);
 router.put("/deleteUser/:id", authController.deleteUser);
-router.post("/resendOtp",authController.resendOtp)
+router.post("/resendOtp",authController.resendOtp);
+router.get("/AdtAdmissionReport",authController.getAdtAdmissionReport);
+router.get("/getLogs",authController.getLogs);
+router.post("/addModule",authController.addModule)
+router.put("/updateModule",authController.updateModule)
 
 // module.exports = router;
 // // app.post('/api/login', loginUser);
