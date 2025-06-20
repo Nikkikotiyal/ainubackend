@@ -1,4 +1,26 @@
-{
-    "email": "test@example.com",
-    "password": "123456"
+[
+  {
+    "UserName": "Admin",
+    "Email": "admin@softmaart.com",
+    "Password": "$2a$10$m5vT8F1d3JfGUz5Y0i38.eXRpJZCQsoGgBriQgSMWB72rVTRBoFSO",
+    "isDeleted": false,
+    "createdAt": { "$date": "2025-06-19T08:00:00Z" }
+  },
+  {
+  "_id": {
+    "$oid": "684806ca39b69997b28ea5a2"
+  },
+  "Password": "$2b$10$g0UMtKDMbKqcTtKkvLMki..EfCJBC8HBnDzQJpS.l6vt5oOMUMUd2",
+  "UserName": "nikita",
+  "Designation": "Admin",
+  "Email": "nickykotiyal09@gmail.com",
+  "MobileNo": "8456321452",
+  "Location": "Dilsukhnagar",
+  "Status": "I",
+  "Role": "SuperAdmin",
+  "isDeleted": false,
+  "modules": [],
+  "__v": 0,
+  "otp": "7527"
 }
+]

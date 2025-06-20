@@ -11,6 +11,17 @@ const { ObjectId } = require("mongoose").Types;
 const app = express();
 const RequestLog = require("../models/logmodel"); // ✅ Check this path
 
+const logRequest = async (emailOrUsername, remark) => {
+  await RequestLog.create({
+    method: "POST",
+    url: "/login",
+    userId: emailOrUsername,
+    purpose: "User Login",
+    remarks: remark, // ✅ Store success/failure remarks
+    timestamp: new Date(),
+  });
+};
+
 exports.loginUser = async (req, res) => {
   const { emailOrUsername, password } = req.body;
   console.log("Request body:", req.body);
@@ -21,10 +32,18 @@ exports.loginUser = async (req, res) => {
     });
 
     if (!user) {
+      await logRequest(
+        emailOrUsername,
+        "Login Attempt Failed - User Not Found"
+      ); // 🔴 Failed remark
       return res.status(404).json({ message: "User not found" });
     }
 
     if (user.isDeleted) {
+      await logRequest(
+        emailOrUsername,
+        "Login Attempt Failed - Account Deactivated"
+      ); // 🔴 Failed remark
       return res.status(403).json({
         message: "Your account has been deactivated. Please contact support.",
       });
@@ -32,15 +51,23 @@ exports.loginUser = async (req, res) => {
 
     const isMatch = await bcrypt.compare(password, user.Password);
     if (!isMatch) {
+      await logRequest(
+        emailOrUsername,
+        "Login Attempt Failed - Invalid Password"
+      ); // 🔴 Failed remark
       return res.status(401).json({ error: "Invalid password" });
     }
+
     const token = jwt.sign({ userId: user._id }, "your_secret_key", {
       expiresIn: "24h",
     });
+
     console.log("Generated Token:", token);
+    await logRequest(emailOrUsername, "Login Successful"); // ✅ Success remark
     return res.status(200).json({ message: "Login successful", user, token });
   } catch (error) {
     console.error("Login error:", error);
+    await logRequest(emailOrUsername, "Login Attempt Failed - Server Error"); // 🔴 Failed remark
     res.status(500).json({ error: "Login failed" });
   }
 };
@@ -151,15 +178,13 @@ exports.signupUser = async (req, res) => {
 
 exports.getModule = async (req, res) => {
   try {
-    // console.log("API hit /getModule"); // debug
     const module = await Module.find({});
-    // console.log(module); // see what’s returned
     res.status(200).json(module);
   } catch (error) {
-    // console.error("Error fetching modules:", error);
     res.status(500).json({ error: "Failed to fetch modules" });
   }
 };
+
 
 exports.saveModule = async (req, res) => {
   try {
@@ -708,8 +733,19 @@ exports.sendOtp = async (req, res) => {
     // 📩 Send OTP via email
     await sendEmail(
       user.Email,
-      "Your Login OTP",
-      `Your OTP is: ${otp}. It expires in 5 minutes.`
+      "Your One-Time Password (OTP) for Login",
+      `Dear User,
+
+We received a request to log in to your account. Please use the following One-Time Password (OTP) to proceed:
+
+🔐 OTP: ${otp}
+
+This OTP is valid for 5 minutes. For your account’s security, do not share this code with anyone. If you did not initiate this request, please ignore this email or contact our support team immediately.
+
+Thank you for choosing us.
+
+Best regards,  
+The DMS AINU Team`
     );
 
     res.status(200).json({ message: "OTP sent successfully" });
@@ -742,7 +778,11 @@ exports.getLogs = async (req, res) => {
 
 exports.addModule = async (req, res) => {
   try {
-    const { Moduleid, "MODLE NAME ": MODLE_NAME, "REPORT NAME": REPORT_NAME } = req.body; // ✅ Space included
+    const {
+      Moduleid,
+      "MODLE NAME ": MODLE_NAME,
+      "REPORT NAME": REPORT_NAME,
+    } = req.body; // ✅ Space included
 
     if (!Moduleid || !MODLE_NAME || !REPORT_NAME) {
       return res.status(400).json({ error: "All fields are required!" });
@@ -756,7 +796,7 @@ exports.addModule = async (req, res) => {
     const newModule = new Module({
       Moduleid,
       "MODLE NAME ": MODLE_NAME, // ✅ Match getModule format
-      "REPORT NAME": REPORT_NAME
+      "REPORT NAME": REPORT_NAME,
     });
     await newModule.save();
 
@@ -765,8 +805,8 @@ exports.addModule = async (req, res) => {
       data: {
         Moduleid: newModule.Moduleid,
         "MODLE NAME ": newModule["MODLE NAME "], // ✅ Ensure exact key format
-        "REPORT NAME": newModule["REPORT NAME"]
-      }
+        "REPORT NAME": newModule["REPORT NAME"],
+      },
     });
   } catch (error) {
     console.error("❌ Error Adding Module:", error);
@@ -776,7 +816,11 @@ exports.addModule = async (req, res) => {
 
 exports.updateModule = async (req, res) => {
   try {
-    const { Moduleid, "MODLE NAME ": MODLE_NAME, "REPORT NAME": REPORT_NAME } = req.body;
+    const {
+      Moduleid,
+      "MODLE NAME ": MODLE_NAME,
+      "REPORT NAME": REPORT_NAME,
+    } = req.body;
 
     if (!Moduleid || !MODLE_NAME || !REPORT_NAME) {
       return res.status(400).json({ error: "All fields are required." });
@@ -805,5 +849,26 @@ exports.updateModule = async (req, res) => {
   }
 };
 
+exports.deleteModule = async (req, res) => {
+  try {
+    const { Moduleid } = req.params;
 
+    const updatedModule = await Module.findOneAndUpdate(
+      { Moduleid },
+      { isDeleted: true },
+      { new: true }
+    );
 
+    if (!updatedModule) {
+      return res.status(404).json({ error: "Module not found!" });
+    }
+
+    res.status(200).json({
+      message: "Module soft-deleted successfully!",
+      data: updatedModule,
+    });
+  } catch (error) {
+    console.error("❌ Error soft-deleting module:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};

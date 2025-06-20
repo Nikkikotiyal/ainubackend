@@ -7,7 +7,7 @@ const userSchema = new mongoose.Schema({
   Email: { type: String, maxlength: 50, unique: true },
   MobileNo: { type: String, maxlength: 10 },
   otp: { type: String, maxlength: 10 },
-  Location: { type: String, maxlength: 50 },
+  Location: { type: String},
   Status: { type: String, enum: ["A", "S", "I"], default: "A" },
   Role: { type: String, enum: ["User", "SuperAdmin"], default: "User" },
   isDeleted: { type: Boolean, default: false }, // Soft delete flag
