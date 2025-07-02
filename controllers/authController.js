@@ -10,6 +10,8 @@ const AdtAdmission = require("../models/ADTAdmissionReport");
 const { ObjectId } = require("mongoose").Types;
 const app = express();
 const RequestLog = require("../models/logmodel"); // ✅ Check this path
+const claim = require("../models/claim");
+const Specialty = require("../models/specility");
 
 const logRequest = async (emailOrUsername, remark) => {
   await RequestLog.create({
@@ -184,7 +186,6 @@ exports.getModule = async (req, res) => {
     res.status(500).json({ error: "Failed to fetch modules" });
   }
 };
-
 
 exports.saveModule = async (req, res) => {
   try {
@@ -757,9 +758,14 @@ The DMS AINU Team`
 
 exports.getAdtAdmissionReport = async (req, res) => {
   try {
-    // console.log("API hit /AdtAdmissionReport"); // debug
-    const data = await AdtAdmission.find().limit(100);
-    // console.log(data); // see what’s returned
+    const { City } = req.query;
+
+    const filter = {};
+    if (City) {
+      filter.City = { $regex: new RegExp(City, "i") }; // case-insensitive match
+    }
+
+    const data = await AdtAdmission.find(filter).limit(100);
     res.status(200).json(data);
   } catch (error) {
     console.error("Error fetching admission report:", error);
@@ -870,5 +876,39 @@ exports.deleteModule = async (req, res) => {
   } catch (error) {
     console.error("❌ Error soft-deleting module:", error);
     res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.getClaims = async (req, res) => {
+  try {
+    const filters = req.query; // e.g., { claimNo: 'CIR/2025/...' }
+    const claims = await claim.find(filters);
+    res.status(200).json(claims);
+  } catch (err) {
+    console.error("❌ Claim fetch error:", err);
+    res
+      .status(500)
+      .json({ message: "Failed to retrieve claims", error: err.message });
+  }
+};
+
+exports.getSpecility = async (req, res) => {
+  try {
+    const specialties = await Specialty.find();
+    res.status(200).json(specialties);
+  } catch (err) {
+    console.error("❌ Failed to fetch specialties:", err);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+// POST new specialty (optional)
+exports.addSpecility = async (req, res) => {
+ try {
+    const payload = Array.isArray(req.body) ? req.body : [req.body];
+    const result = await Specialty.insertMany(payload);
+    res.status(201).json(result);
+  } catch (err) {
+    res.status(400).json({ error: 'Failed to add specialties', details: err.message });
   }
 };

@@ -1,0 +1,407 @@
+Moduleid,MODLE NAME ,REPORT NAME
+1,ADT,Admission Reports 
+2,ADT,Admission Reports
+3,ADT,Current In patient
+4,ADT,Census Report
+5,ADT,Bed Status Reports
+6,ADT,Package Status Report
+7,ADT,Duplicate Activity Sheet
+8,ADT,IP Discharge TAT Report
+9,ADT,Print Label
+10,ADT,Doctor Wise Inpatient Chart
+11,A/R,Claimed_Raised
+12,A/R,"
+Claim Received Amount Report"
+13,A/R,Insurance Company Reports
+14,A/R,Received Amount MOP Report
+15,A/R,Company Wise Outstanding Report
+16,A/R,Disallow Report
+17,A/R,Company Outstanding Ageing Report
+18,A/R,AR Ledger Report
+19,A/R,CommonScroll
+20,Billing ,Common Scroll
+21,Billing ,Unused Deposit Report
+22,Billing ,UnBilled/Unsettled Bill Report
+23,Billing ,Patient Bill Status
+24,Billing ,IP Ward Consumption Report
+25,Billing ,IP Ward Consumption Report
+26,Billing ,Miscellaneous Entry Details Report
+27,Billing ,Cancel IP Investigation Report
+28,Billing ,Cancel IP Investigation Report
+29,Billing ,Package Consumable Breakup Details Report
+30,Billing ,Package Services Breakup Details Report
+31,Billing ,Expected Discharge Report Based On Package End Date
+32,Billing ,Change of Bed category report
+33,Billing ,IP Patient Bill Report Date Wise
+34,Billing ,Department Wise Revenue With Package
+35,Billing ,Pharmacy Return Report
+36,Billing ,Invoice Including Service Tax
+37,Billing ,IP Consults Report
+38,Billing ,TCS Collection Report
+39,Billing ,Estimation Comparison Report
+40,Billing ,Inpatient Service wise report
+41,Billing ,Patient Remark Report
+42,DayCare,DayCareWorklist
+43,Emergency,Common Scroll
+44,Emergency,Emergency Total Patient Report
+45,Emergency,Triage Patient Bill Status
+46,Emergency,Triage Discharge Cancellation Report
+47,Emergency,Triage Dept Wise Test & Revenue
+48,Emergency,Reprint Barcode
+49,Emergency,Fractional Item Usage Report
+50,Front Office ,Common Scroll
+51,Front Office ,Expired Patient Report
+52,Front Office ,Equipment Schedule Report
+53,Front Office ,Doctor's Schedule Report
+54,Front Office ,Individual Plan Report 
+55,Front Office ,Credit Card Detail Report
+56,Front Office ,Pre-Surgery Estimate Report
+57,Front Office ,Online Health CheckUp Schedule Report
+58,GeneralItems,Stock In Hand and As on Date Wise Report
+59,GeneralItems,Stock Movement Report
+60,GeneralItems,Stock Ledger Report
+61,GeneralItems,Stock In Transit Report
+62,GeneralItems,"Indent,PR,PO Closure Report"
+63,GeneralItems,Pending Purchase Req. Report
+64,GeneralItems,Pending PO Reports
+65,GeneralItems,PO Approval Status Report
+66,GeneralItems,PO Detail Reports
+67,GeneralItems,PO Against Purchase Request Report
+68,GeneralItems,GRN Register Detailed Report
+69,GeneralItems,Purchase Receipt Summary
+70,GeneralItems,Purchase Receipt Summary Supplier Wise
+71,GeneralItems,Purchase Receipt Detail Supplier Wise
+72,GeneralItems,Purchase Receipt And Return Details Report
+73,GeneralItems,Item Wise Purchase Receipt Details
+74,GeneralItems,Supplier Wise Net Purchase Report
+75,GeneralItems,Purchase Return Summary Reports
+76,GeneralItems,Adjustment Summary Station Wise
+77,GeneralItems,Issue Summary Report
+78,GeneralItems,Store Item Consumption Report
+79,GeneralItems,Indent Receipt Details Report
+80,GeneralItems,Indent Return Report
+81,GeneralItems,Non-Moving Item Report 
+82,GeneralItems,Item Master Report
+83,Inventory,Item Wise Departmentwise Stock Status Report
+84,Inventory,Sale And Stock In Hand Store Wise Report
+85,Inventory,Stock Ledger Report
+86,Inventory,Opening And Closing Stock Ledger Report
+87,Inventory,Stock In Transit Report
+88,Inventory,Stock In Hand
+89,Inventory,Fractional Item Stock In Hand Report
+90,Inventory,Price List
+91,Inventory,Month End Stock In Hand and As on Date wise Report
+92,Inventory,Stock In Hand Report Manufacturer Wise
+93,Inventory,Facility Wise Month End Stock In Hand
+94,Inventory,Facility Wise Department Wise Month End Stock In Hand Summary Report
+95,Inventory,Stock Movement Report
+96,Inventory,Stock In Hand Margin Report
+97,Inventory,Stock In Hand Margin Report
+98,Inventory,Rejected Stock Summary
+99,Inventory,Rejected Stock Closure Reports
+100,Inventory,Transferred Rejected Stock Report
+101,Inventory,Indent Status Report
+102,Inventory,Direct Reciept Report
+103,Inventory,Pending Item Details
+104,Inventory,Indent Return Details
+105,Inventory,Indent Return From To Department Report
+106,Inventory,Indent Receipt Report
+107,Inventory,Item Wise Indent Issue Return Report 
+108,Inventory,Issue Summary Report
+109,Inventory,Pending Issue Details Item Wise
+110,Inventory,Pending Issue Summary Department Wise
+111,Inventory,Expired Item Report
+112,Inventory,Item Price Audit Report
+113,Inventory,Item Movement Report
+114,Inventory,Slow Moving Items Report
+115,Inventory,Fast Moving Items Report
+116,Inventory,Non Moving Items Report
+117,Inventory,ABC Analysis Report
+118,Inventory,Max Level Analysis Report
+119,Inventory,Markup % And SP Report
+120,Inventory,Item Master Report
+121,Inventory,Formulary Report
+122,Inventory,SP/Markup Item Station Wise Detail Report
+123,Inventory,GRN Register Detailed Report
+124,Inventory,Purchase Receipt Summary Supplier Wise
+125,Inventory,Item Wise Purchase Receipt Details
+126,Inventory,Purchase Receipt Details Supplier Wise
+127,Inventory,Purchase Receipt Details
+128,Inventory,Supplier Wise Net Purchase Report
+129,Inventory,Purchase Return Summary Report
+130,Inventory,Purchase Return Summary Supplier Wise
+131,Inventory,Purchase Return/Rejected Stock Return Report
+132,Inventory,Facility Wise Store Consumption Report
+133,Inventory,Item Wise Facility Wise Total Consumption Report
+134,Inventory,Facility wise Departmentwise Total consumption Summary Report
+135,Inventory,Facility wise Departmentwise Return against IP consumption From the ward
+136,Inventory,Fractional Consumption Report
+137,Inventory,IP Consumption Report
+138,Inventory,OP Consumption Detail report
+139,Inventory,Store Consumption Report
+140,Inventory,Pending Purchase Order Details
+141,Inventory,PO Approval Status Report
+142,Inventory,Purchase Order Supplier Wise
+143,Inventory,PO Register Details Report
+144,Inventory,PO Register Details Report
+145,Inventory,PO With And Without PR Report
+146,Inventory,Adjustment Report
+147,Inventory,Stock Audit Status Report 
+148,Inventory,Stock Audit Detail Report
+149,Inventory,Fractional Adjustment Report
+150,Inventory,Inter Facility Received/Return Report
+151,Inventory,Inter Facility Issued/Return Ack. Report
+152,Inventory,Inter Facility Pending Indent Details
+153,Inventory,Inter Facility Stock In Transit Report
+154,Inventory,Inter Facility Stock In Transit Report
+155,Inventory,Inter Facility Issue Summary Report
+156,Inventory,Pending Purchase Requisition Report
+157,Inventory,Pending Purchase Requisition Detail Report
+158,Inventory,Purchase Requisition Summary Report
+159,Inventory,Purchase Requisition Detailed Report
+160,Inventory,Facility Wise Stock Closing Report
+161,Inventory,GRN Register
+162,Inventory,Facility Wise Month Wise Stock Ledger Summary Report
+163,Inventory,GST Surrender Report
+164,Inventory,Item wise Issue Receive Summary Report
+165,Inventory,Consignee Stock In Hand Report
+166,Inventory,Consignee Expired Items Reports
+167,Inventory,Item Consumption Report
+168,Inventory,Consignee Item Return From To Station Report
+169,Inventory,Consignee Issue Summary Report
+170,Inventory,Consignee Purchase Receipt Summary Report
+171,Inventory,Consignee Purchase Return Summary Report
+172,Inventory,Consignee Markup % And Selling Price Report
+173,Inventory,Consignee Item Issue Cancellation Report
+174,Inventory,CSSD Utilization Report
+175,Inventory,CSSD Sterilization Detail Report
+176,Inventory,Used Item Stock In Hand Report
+177,Inventory,Batch Modification Report
+178,Inventory,Interfacility Sales and Return Report
+179,Inventory,"Indent, PR, PO Closure Report"
+180,Inventory,Drug Profile
+181,Inventory,Manufacturer Wise Item List Report
+182,Lab,Group Printing
+183,Lab,Report On Panic Result
+184,Lab,Work List
+185,Lab,TAT Report
+186,Lab,Prelim TAT Report
+187,Lab,Lab Rejection Report
+188,Lab,Delta Check Variance Report
+189,Lab,Lab Audit Report
+190,Lab,Out Sourced Report
+191,Lab,Reprint Barcode
+192,Lab,Operation Audit Report
+193,Lab,Antibiotic Sensitivity Pattern
+194,Lab,Aggregate Reports
+195,Lab,Biopsy and Slide Report
+196,MIS,Department Wise Test And Revenue
+197,MIS,Doctor Wise Consults
+198,MIS,Open Scroll Report
+199,MIS,Daily Collection Report
+200,MIS,User Wise Collection Report
+201,MIS,Test Done Report
+202,MIS,Department Wise Sub-Department Wise Revenue Report
+203,MIS,Unbilled IP Revenue Report
+204,MIS,Procedure Doctor Report For Out Patients
+205,MIS,Procedure Doctor Report For Preadmission/Emergency
+206,MIS,Physician Order Conversion Report
+207,MIS,Daily Revenue Report
+208,MIS,Doctor New And Follow Up Patient Report
+209,MIS,Key Performance Indicators (KPI) Revenue Report
+210,MIS,Patient Foot Fall Report
+211,MIS,EMR Usage Report
+212,MIS,Doctor And Department Wise Revenue Report
+213,MIS,MLC Detail Report
+214,MIS,Common Discount Report
+215,MIS,Template Audit Report
+216,MIS,Discharge Intimation Audit Report
+217,MIS,Financial Analysis Report
+218,MIS,Credit Card Detail Report
+219,MIS,Deposit Report
+220,MIS,IP Order Tentative Bill Report
+221,MIS,Due Report
+222,MIS,Patient Bill Audit Report
+223,MIS,Bill Wise Mode of Payment Breakup
+224,MIS,Package Analysis Report
+225,MIS,OP/IP Price List
+226,MIS,Equipment Charges Report
+227,MIS,Financial Interface Report
+228,MIS,Disease Registry
+229,MIS,Invoice Summary Report
+230,MIS,Rate Contract Modification Report
+231,MIS,One MIS
+232,MIS,Patient Ledger
+233,MIS,Scroll Summary Report
+234,MIS,OP Refund Report
+235,MIS,OP Discount Report
+236,MIS,Corporate Bill Summary Detail Report
+237,MIS,Corporate Patient Wise Report
+238,MIS,Non Corporate Patient Wise Report
+239,MIS,Doctor Consultation Details
+240,MIS,Referral Consults Report
+241,MIS,Doctor Wise Procedure Report
+242,MIS,New Old Patient Visit (Consultation Wise)
+243,MIS,Referral Doctor All (External)
+244,MIS,Referral Doctor All Detail (External)
+245,MIS,Episode Doctor Procedure Wise Report (Sorted On Bill No.)
+246,MIS,Patient Wise Service Count Details
+247,MIS,Preventive Health Checkup Report
+248,MIS,PHC Detail Report
+249,MIS,PHC Sorting Report
+250,MIS,Report Sorting
+251,MIS,Investigation Booking
+252,MIS,Service Wise PHC Report
+253,MIS,Misc Item Bill Report
+254,MIS,New Old Patient Report
+255,MIS,Pathology Report Status
+256,MIS,Test And Parameter
+257,MIS,Pharmacy Discount Report
+258,MIS,OP Sales Report
+259,MIS,OP Bill Register
+260,MIS,Miscellaneous Bills Report (OP)
+261,MIS,TAT Consultation Report
+262,MIS,OP Pharmacy TAT Report
+263,MIS,User Wise OPD Registration Details
+264,MIS,Free Bill report
+265,MIS,Bill Modification Audit Report
+266,MIS,IP Discount Report
+267,MIS,Emergency Discount Report
+268,MIS,IP Refund Report
+269,MIS,IP Bill Register
+270,MIS,IP Bill Detail Register
+271,MIS,Triage Bill Register
+272,MIS,Surgery Breakup Details
+273,MIS,Cancelled Investigations After Acknowledgement Report
+274,MIS,IP Package Gain And Loss Report
+275,MIS,Emergency Refund Report
+276,MIS,Cheque In Hand Details
+277,MIS,Admission Report
+278,MIS,Census Report
+279,MIS,Bed Status Report
+280,MIS,Discharge Report
+281,MIS,Current In Patient Report
+282,MIS,Procedure And Other Services Summary Report
+283,MIS,Patient Expiry Report
+284,MIS,IP/ER Cancel Discharge Patient Report
+285,MIS,IP Discharge Patient Report
+286,MIS,Reason For Admission
+287,MIS,Admission Cancellation Report
+288,MIS,Discharge Patient Revisit Details
+289,MIS,Patient Transfer Report
+290,MIS,Mortality Statistics
+291,MIS,IP Event Template Documentation Compliance
+292,MIS,Doctor And Ward Wise In Patient Chart Report
+293,MIS,Patient-Wise BedType-Wise Stay Details
+294,MIS,Ambulance Tracking Report
+295,MIS,Patient Admission TAT Report
+296,MIS,IP Sale Register
+297,MIS,IP TPA Revenue Report
+298,MIS,IP Corporate Revenue Report
+299,MIS,IP Package Detail Revenue Report
+300,MIS,Miscellaneous Bills Report
+301,MIS,In Patient Report
+302,MIS,IP Consults Report
+303,MIS,IP Pharmacy TAT Report
+304,MIS,Transfer Of Care
+305,MIS,Surgery Consumable Report
+306,MIS,RMO Handover Supervisor Report
+307,MIS,Patient Death Report
+308,MIS,Un-Verify Discharge Summary Report 
+309,MIS,Admission Request Report
+310,MIS,Chief Cashier
+311,MIS,Payment Reconciliation
+312,MIS,Discount Approval
+313,MIS,Chief Cashier For Common Scroll
+314,MIS,Patient Portal Payment Report
+315,MIS,NEFT/RTGS Refund Report
+316,MIS,Facilitators Revenue Summary
+317,MIS,Patient Referral Ananlysis Report
+318,MIS,Company/TPA Wise Revenue Report
+319,MIS,Referral Doctor Revenue Report
+320,MIS,TPA Corporate Revenue Report
+321,MIS,Corporate Revenue Report
+322,MIS,Custom Report
+323,MIS,New Patients Report
+324,MIS,Old Patients Report
+325,MIS,Born Babies Report
+326,MIS,Family Plan Service Wise Net Revenue Report
+327,MIS,CRM Discount Reason Report
+328,MIS,Family Plan Details Report
+329,MIS,International Patients Report
+330,MIS,Registration Report
+331,MIS,Maternity Report
+332,MIS,Pre-Registration Report
+333,MIS,Total Consumption
+334,MIS,Store Consumption
+335,MIS,IP Consumption Report
+336,MIS,IP Consumption Report With Package
+337,MIS,Ward Consumable Report
+338,MIS,IP Revenue With Material Report For Discharge
+339,MIS,IP Revenue With Material Report For Admitted
+340,MIS,Consumption Interface Ledger
+341,MIS,GRN Interface Ledger List
+342,MIS,Inventory Sales Vs Purchase Report
+343,MIS,GRN Finance Verification
+344,MIS,Pharmacy Sales Report
+345,MIS,Pharmacy Issue Report
+346,MIS,Material Margin Report
+347,MIS,HSN Wise GST Sale Report
+348,MIS,Invoice Wise GST Sale Report
+349,MIS,Restricted Items Report
+350,MIS,Annual Sales Report
+351,MRD,Report
+352,MRD,Chart In/Out Report
+353,MRD,ICD Index For In Patient
+354,MRD,EMR Visit Record
+355,MRD,Patient Demographics Change
+356,MRD,Patient Record Movement Register
+357,MRD,Record Request Issue/Receipt Register Report
+358,MRD,Record Return/Acknowledged Register Report
+359,MRD,Patient Discharge Checklist Report
+360,MRD,Lab Report View log by Physician
+361,MRD,MRD Checklist Master
+362,MRD,Patient Checklist
+363,MRD,Custom Report
+364,Nursing,Diet List
+365,Nursing,Pending Requisition For In-Patient
+366,Nursing,Pending Report Status
+367,Nursing,Vulnerable Patient Report
+368,Nursing,Long Stay Patient
+369,Nursing,IP Consumption Report
+370,Nursing,Reprint Barcode
+371,Nursing,Fractional Items Usage Report
+372,Nursing,Equipment Schedule Report
+373,Nursing,Nursing Endorsement/Handover Report
+374,Nursing,Diet Order TAT Report
+375,Nursing,Investigation Deletion Report
+376,Nursing,Ventilator & Oxygenation Report
+377,Nursing,Adverse Event Report
+378,Nursing,IPView
+379,OT,OT Schedule Report
+380,OT,OT Schedule Report ON Date
+381,OT,Fractional Item Usage Report
+382,OT,OT Surgery Detailed Report
+383,OT,Surgery Consumable Report
+384,OT,Cancelled Surgery After Billing
+385,OT,OT Abort Surgery
+386,OT,Surgery Posted Deviation
+387,OT,OT Bill
+388,Pharmacy,Common Scroll
+389,Pharmacy,OP Pharmacy Sales
+390,Pharmacy,Gst Wise Medicine Sale Report
+391,Pharmacy,IP Pharmacy Register
+392,Pharmacy,IP Issue/Return Report
+393,Pharmacy,IP Pending Requistions
+394,Pharmacy,High Risk Medicine Consumption
+395,Pharmacy,Patient Wise Consumption Report 
+396,Pharmacy,Statutory Prescription Report
+397,Pharmacy,Item Bounce Report
+398,Pharmacy,Item Wise Pending IP Orders Report
+399,Pharmacy,Drug Profile
+400,SampleCollection,Work List
+401,SampleCollection,TAT Report
+402,SampleCollection,Prelim TAT Report
+403,SampleCollection,Reprint Barcode
+404,SampleCollection,Home Visit Sample Collection Report
+405,SampleCollection,Phlebotomist IP/ER Worksheet

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const adtAdmissionSchema = new mongoose.Schema({
-  LocationName: String,
+  // LocationName: String,
   UHid: String,
   IPNO: Number,
   AdmissionType: String,

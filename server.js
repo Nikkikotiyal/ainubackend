@@ -7,8 +7,9 @@ const fs = require("fs"); // ✅ Add this
 const path = require("path"); // ✅ Add this
 const https = require("https"); // ✅ For HTTPS server
 const app = express();
+const uploadRoute = require("./routes/uploadRoute");
 const cookieParser = require("cookie-parser");
-
+app.use(cookieParser());
 
 app.use(cors());
 const RequestLog = require("./models/logmodel");
@@ -18,14 +19,14 @@ app.use(
     origin: "http://localhost:4200", // Adjust if needed
     // origin: "https://dms.ainuindia.com",
     methods: "GET, POST ,PUT ", // Make sure POST is allowed
-    allowedHeaders: "Content-Type, Authorization",
+    allowedHeaders: ["Content-Type", "Authorization", "user-email"], // include any custom headers you use
     credentials: true,
   })
 );
 
 app.use(express.json());
-app.use(cookieParser());
 console.log("Starting....");
+app.use("/api", uploadRoute);
 
 const productionUrl =
   "mongodb://ainuindia_user:Aanp20252030@69.62.80.20:27017/ainuindia_dms?authSource=admin";

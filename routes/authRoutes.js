@@ -52,7 +52,7 @@ router.post(
     console.log("📩 Received OTP verification request:", req.body);
     next();
   },
- 
+
   authController.verifyOtp
 );
 
@@ -69,10 +69,7 @@ router.get("/data", (req, res) => {
 });
 
 router.post("/sendOtp", authController.sendOtp);
-router.post(
-  "/resetPassword",
-  authController.resetPassword
-);
+router.post("/resetPassword", authController.resetPassword);
 router.put("/deleteUser/:id", authenticateToken, authController.deleteUser);
 router.post("/resendOtp", authController.resendOtp);
 router.get(
@@ -88,6 +85,9 @@ router.delete(
   authenticateToken,
   authController.deleteModule
 );
+router.get("/claims", authController.getClaims);
+router.get("/specialties" ,authController.getSpecility)
+router.post("/addSpecility" , authController.addSpecility)
 // module.exports = router;
 // // app.post('/api/login', loginUser);
 module.exports = router;
