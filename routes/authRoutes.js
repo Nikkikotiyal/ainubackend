@@ -86,8 +86,12 @@ router.delete(
   authController.deleteModule
 );
 router.get("/claims", authController.getClaims);
-router.get("/specialties" ,authController.getSpecility)
-router.post("/addSpecility" , authController.addSpecility)
+router.get("/specialties", authController.getSpecility);
+router.post("/addSpecility", authController.addSpecility);
+router.get("/ipdischarge", authController.getIpDischarge);
+router.post("/ip-discharge-reports/soft-delete", authController.softDeleteIpDischarge);
+
+router.get("/company-outstanding",authController.getCompanyOutstandingAgeing)
 // module.exports = router;
 // // app.post('/api/login', loginUser);
 module.exports = router;

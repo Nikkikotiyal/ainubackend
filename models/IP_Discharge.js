@@ -1,0 +1,61 @@
+const mongoose = require("mongoose");
+
+const ipDischargeSchema = new mongoose.Schema(
+  {
+    UHid: { type: String, required: true, trim: true },
+    IPNO: { type: Number, required: true },
+    "Patient Name": { type: String, required: true },
+    Age: { type: String },
+    Gender: { type: String, enum: ["Male", "Female", "Other"] },
+    MobileNo: { type: String },
+    MonthlyIncome: { type: Number },
+    "Father/SpouseName": { type: String },
+    Address: { type: String },
+    City: { type: String },
+    State: { type: String },
+    Country: { type: String },
+    Nationality: { type: String },
+    "Bed No": { type: Number },
+    "Bed Type": { type: String },
+    "Billable Bed Type": { type: String },
+    "Ward Name": { type: String },
+    "Admission Date & Time": { type: Date },
+    "Expected Date of Discharge": { type: Date },
+    "Discharge Intimation Date & Time": { type: Date },
+    "Discharge Date & Time": { type: Date },
+    "LOS till Discharge": { type: Number },
+    "Bill No": { type: String },
+    "Discharge Type": { type: String },
+    PaymentType: { type: String, enum: ["Cash", "Card", "Insurance"] },
+    PatientType: { type: String, enum: ["IP", "OP"] },
+    "Admitting doctor": { type: String },
+    "Admitting doctor Specialty": { type: String },
+    "Primary doctor": { type: String },
+    "Primary doctor Specialty": {
+      type: String,
+      enum: [
+        "Urology",
+        "Cardiology",
+        "Neurology",
+        "Orthopedics",
+        "Dermatology",
+        "Nephrology",
+      ],
+    },
+    "Referral Doctor": { type: String },
+    Package: { type: String },
+    "Is MLC": { type: String, enum: ["Yes", "No"] },
+    IP_Visit: { type: Number },
+    "Operator Name": { type: String },
+    "LOS till Discharge Intimation time": { type: Number },
+    "Diagnosis marked": { type: String },
+    "Bill Generate DateTime": { type: Date },
+    "Surgery Name": { type: String },
+    "H Location": { type: String },
+    isDeleted: { type: Boolean, default: false },
+  },
+
+  { timestamps: true, collection: "IPDischarge" }
+);
+
+module.exports = mongoose.model("IPDischarge", ipDischargeSchema);

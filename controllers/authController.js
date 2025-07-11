@@ -12,7 +12,8 @@ const app = express();
 const RequestLog = require("../models/logmodel"); // ✅ Check this path
 const claim = require("../models/claim");
 const Specialty = require("../models/specility");
-
+const IPDischarge = require("../models/IP_Discharge");
+const CompanyOutstanding = require("../models/CompanyOutstandingAgeing");
 const logRequest = async (emailOrUsername, remark) => {
   await RequestLog.create({
     method: "POST",
@@ -904,11 +905,54 @@ exports.getSpecility = async (req, res) => {
 
 // POST new specialty (optional)
 exports.addSpecility = async (req, res) => {
- try {
+  try {
     const payload = Array.isArray(req.body) ? req.body : [req.body];
     const result = await Specialty.insertMany(payload);
     res.status(201).json(result);
   } catch (err) {
-    res.status(400).json({ error: 'Failed to add specialties', details: err.message });
+    res
+      .status(400)
+      .json({ error: "Failed to add specialties", details: err.message });
+  }
+};
+
+exports.getIpDischarge = async (req, res) => {
+  try {
+    const reports = await IPDischarge.find({ isDeleted: { $ne: true } }).limit(
+      100
+    );
+    res.status(200).json(reports);
+  } catch (err) {
+    console.error("❌ Failed to fetch discharge reports:", err);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+// POST /api/ip-discharge-reports/soft-delete
+exports.softDeleteIpDischarge = async (req, res) => {
+  const { reportIds } = req.body;
+
+  try {
+    await IPDischarge.updateMany(
+      { _id: { $in: reportIds } },
+      { $set: { isDeleted: true } }
+    );
+
+    res
+      .status(200)
+      .json({ message: "🗑️ Reports marked as deleted successfully!" });
+  } catch (error) {
+    console.error("❌ Failed to soft delete discharge reports:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.getCompanyOutstandingAgeing = async (req, res) => {
+  try {
+    const reports = await CompanyOutstanding.find().limit(100);
+    res.status(200).json(reports);
+  } catch (error) {
+    console.error("❌ Error fetching company outstanding reports:", error);
+    res.status(500).json({ error: "Internal Server Error" });
   }
 };
