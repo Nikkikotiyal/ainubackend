@@ -7,7 +7,7 @@ const fs = require("fs"); // ✅ Add this
 const path = require("path"); // ✅ Add this
 const https = require("https"); // ✅ For HTTPS server
 const app = express();
-const uploadRoute = require("./routes/uploadRoute");
+const ipDischargeUploadRoute = require("./routes/uploadRoute");
 const cookieParser = require("cookie-parser");
 app.use(cookieParser());
 
@@ -26,7 +26,7 @@ app.use(
 
 app.use(express.json());
 console.log("Starting....");
-app.use("/api", uploadRoute);
+app.use('/api', ipDischargeUploadRoute);
 
 const productionUrl =
   "mongodb://ainuindia_user:Aanp20252030@69.62.80.20:27017/ainuindia_dms?authSource=admin";

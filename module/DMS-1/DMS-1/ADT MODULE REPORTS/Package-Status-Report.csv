@@ -1,0 +1,639 @@
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,H Location
+1,AIBH.158385,19296,Mr. V.SRIKANTH  REDDY,Uro Package VII,Cubical,Urology,Done,Banjara Hills
+2,AIBH.148534,19297,Mrs. SAMEERA  .,Uro package I,DayCare,Urology,Done,Banjara Hills
+3,AIBH.153839,19298,Mr. ASHISH  MANDAL,Renal Biopsy (P),DayCare,Urology,Done,Banjara Hills
+4,AIBH.105473,19299,Mr. P SATHYAM  .,Uro package I,Single,Urology,Done,Banjara Hills
+5,AIBH.158511,19300,Mr. ASHOK KR  DAS GUPTA,Prostate Biopsy (P),DayCare,Urology,Done,Banjara Hills
+6,AIBH.157784,19301,Mr. AVULA  NARASIMHULU,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+7,AIBH.153485,19302,Mr. ABDULLAH  MUSLEH,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+8,AIBH.105400,19303,Mrs. Syeda Zakiya Sultana  .,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+9,AIBH.153704,19304,Mr. CH KRISHNA MURTHY  .,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+10,AIBH.158523,19306,Mr. AJAY KUMAR  GHOSH,Uro Package V,General Ward,Urology,Done,Banjara Hills
+11,AIBH.158538,19308,Mrs. NIRMALA  MAKAM,CYSTOSCOPY  L/A (P),DayCare,Urology,Done,Banjara Hills
+12,AIBH.158423,19311,Mrs. V.VIJAYA  LAKSHMI,Uro Package XI,Single,Urology,Done,Banjara Hills
+13,AIBH.158547,19312,Mr. PANTANGI.NARAYAN  .,URSL+DJS (P),Single,Urology,Done,Banjara Hills
+14,AIBH.155179,19313,Mr. MOHAMMAD ABDUL  HAI,Uro Package IV,Single,Urology,Done,Banjara Hills
+15,AIBH.157062,19314,Mr. G  VIJAY KUMAR,Uro Package IX,Single,Urology,Done,Banjara Hills
+16,AIBH.157062,19314,Mr. G  VIJAY KUMAR,Uro Package II,Single,Urology,Done,Banjara Hills
+17,AIBH.158482,19315,Mr. M  RAJENDER KUMAR,Uro package I,SICU,Urology,Done,Banjara Hills
+18,AIBH.155816,19316,Mr. KONDA  MANISH,CIRCUMCISION L/A (P),DayCare,Urology,Done,Banjara Hills
+19,AIBH.120954,19317,Mr. RAMI REDDY  Y V,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+20,AIBH.158558,19318,Mr. NANIMELA  VENKATESWARLU,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+21,AIBH.155425,19319,Mr. V.  RAVINDRANATH,DJ STENT REMOVAL L/A (P),DayCare,Urology,Done,Banjara Hills
+22,AIBH.158555,19321,Mrs. D.PRAMEELA  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+23,AIBH.158494,19322,Mrs. N.RADHIKA  .,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+24,AIBH.121962,19323,Mr. K  RANGAIAH,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+25,AIBH.156812,19324,Mrs. PADMAJA  PENMETSA,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+26,AIBH.158569,19325,Mrs. A  SUSHEELA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+27,AIBH.158593,19327,Mr. HIRDAY NARAYAN  YADAV,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+28,AIBH.158370,19328,Mr. S K  RAMULU,Prostate Biopsy (P),DayCare,Urology,Done,Banjara Hills
+29,AIBH.157876,19331,Mr. C  DAMODHAR,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+30,AIBH.137353,19336,Mr. SHAIK  AMJED,AV FISTULA (P),DayCare,Urology,Done,Banjara Hills
+31,AIBH.158434,19338,Ms. MADAMANCHI AASHA,Uro Package VIII,Cubical,Urology,Done,Banjara Hills
+,,,CHOWDARY,,,,,Banjara Hills
+32,AIBH.158434,19338,Ms. MADAMANCHI AASHA,Uro package I,Cubical,Urology,Done,Banjara Hills
+,,,CHOWDARY,,,,,Banjara Hills
+33,AIBH.157059,19339,Master TATHARAJ  GHOSH,MEATOTOMY (P),DayCare,Urology,Done,Banjara Hills
+34,AIBH.157059,19339,Master TATHARAJ  GHOSH,CYSTOSCOPY (DAY CARE,DayCare,Urology,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+35,AIBH.158424,19340,Mrs. ANUSHA  APPAM,Uro Package XI,Single,Urology,Done,Banjara Hills
+36,AIBH.158206,19341,Mr. T NARSIMHA  REDDY,Uro Package XI,Single,Urology,Done,Banjara Hills
+37,AIBH.134296,19342,Mr. V G  MANOHAR REDDY,TURP - MONOPOLAR (P),Single,Urology,Done,Banjara Hills
+38,AIBH.158341,19343,Mrs. CH  BHAGYA LAKSHMI,URSL+DJS (P),Single,Urology,Done,Banjara Hills
+39,AIBH.158595,19346,Mrs. TALLAM SHAILAJA  KUMARI,URSL+DJS (P),Single,Urology,Done,Banjara Hills
+40,AIBH.158542,19347,Mr. C  KURUMURTHY,Uro Package II,General Ward,Urology,Done,Banjara Hills
+41,AIBH.158564,19348,Mr. WAHID  ALI,Renal Biopsy (P),DayCare,Urology,Done,Banjara Hills
+42,AIBH.157217,19350,Mr. NARRA SRINIVAS  REDDY,URSL+DJS (P),Cubical,Urology,Done,Banjara Hills
+43,AIBH.66792,19351,Mr. BRAHAMMAIAH  .,Uro Package IV,General Ward,Urology,Done,Banjara Hills
+44,AIBH.157761,19353,Mrs. G  SARITHA,DJ STENT REMOVAL (P),Single,Urology,Done,Banjara Hills
+45,AIBH.158645,19354,Mrs. VISHALAKSHMI  GADDAM,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+46,AIBH.124194,19355,Mrs. G  RAJESHWARI,PCNL + STENTING (P),Cubical,Urology,Done,Banjara Hills
+47,AIBH.158652,19356,Mrs. PRITI RAJESHWAR  BALPELWAD,Uro Package III,General Ward,Urology,Done,Banjara Hills
+48,AIBH.158211,19357,Mrs. SUJATHA  PASUNURI,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+49,AIBH.158637,19358,Mr. SHARNAPPA  BOGALE,Uro package I,Single,Urology,Done,Banjara Hills
+50,AIBH.158667,19360,Mrs. V  MAMATHA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+51,AIBH.156948,19364,Mr. P.  NARSIMHA,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+52,AIBH.158635,19366,Mrs. K.PRAMEELA  .,Uro Package VII,Cubical,Urology,Done,Banjara Hills
+53,AIBH.158668,19368,Mr. BRIJ KISHOR  AGRAWAL,Uro Package V,Single,Urology,Done,Banjara Hills
+54,AIBH.155265,19369,Mrs. KANAKADURGA  SANTHI DEVI,AV FISTULA (P),DayCare,Urology,Done,Banjara Hills
+55,AIBH.155934,19370,Master KULDEEP  DAS,CIRCUMCISION L/A (P),DayCare,Urology,Done,Banjara Hills
+56,AIBH.136689,19371,Mrs. MUVVA  SRIVALLI,PCNL - Unilateral (P),Single,Urology,Done,Banjara Hills
+57,AIBH.158625,19372,Mr. Y.PHANI  RAJA,PROSTATE REMOVAL - TURP (P),Single,Urology,Done,Banjara Hills
+58,AIBH.158671,19374,Mr. B.RAJESHWAR  .,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+59,AISC.4622,19375,Dr. RANGANATH  KATTI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+60,AIBH.157191,19376,Master G  NIYANSH,CYSTOSCOPY G/A (P),Twin Sharing,Urology,Done,Banjara Hills
+61,AIHT.707,19377,Mr. Deepjyoti  Choudhury,RIRS (P),Single,Urology,Done,Banjara Hills
+62,AIHT.707,19377,Mr. Deepjyoti  Choudhury,DJ STENT REMOVAL (P),Single,Urology,Done,Banjara Hills
+63,AIBH.157665,19378,Mr. YASH  AGARWAL,Uro package I,Single,Urology,Done,Banjara Hills
+64,AIBH.157665,19378,Mr. YASH  AGARWAL,DJ STENT REMOVAL G/A (P),Single,Urology,Done,Banjara Hills
+65,AIBH.148018,19380,Mr. SHAIK  NAZEER AHMED,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+66,AIBH.158646,19381,Mrs. K  VIJAY LAKSHMI,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+67,AIDN.31968,19382,Mr. RAJENDER  M,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+68,AIHT.13642,19383,Mr. NAGESWER RAO  ARVAPALLI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+69,AIBH.157028,19384,Mr. VAMSHI KRISHNA  CHILUKA,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+70,AIBH.158696,19385,Mr. J  RAJA RAM MOHAN RAO,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+71,AIBH.153893,19386,Mr. VENNA MANGI  REDDY,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+72,AIBH.129782,19387,Mr. SRIRAMA NAGA PURUSHOTHAM,CYSTOSCOPY + URS + DJ,Single,Urology,Done,Banjara Hills
+,,,KONDETI,STENTING (P),,,,Banjara Hills
+73,AIBH.157534,19388,Mrs. PATAN  JEENATH,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+74,AIBH.125924,19389,Mr. B  GOPAL,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+75,AIBH.158461,19390,Mrs. KRISHNA  NELA,Renal Biopsy (P),DayCare,Urology,Done,Banjara Hills
+76,AIBH.157981,19391,Mr. AKBAR  KHAN,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+77,AIBH.157830,19392,Mr. MOHD  ADNAN,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+78,AIBH.158694,19394,Mr. MUKUND RAO  MUDELLI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+79,AIBH.158728,19398,Mr. OBED  MASIH,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+80,AIBH.158718,19399,Mrs. FAHMEEDA  ANJUM,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+81,AIBH.144486,19404,Mr. ANAND KUMAR MEHER  .,PROSTATE REMOVAL - TURP (P),Single,Urology,Done,Banjara Hills
+82,AIBH.157624,19405,Mr. MUNUGALA  PRASHANTH,Uro Package II,General Ward,Urology,Done,Banjara Hills
+83,AIBH.158088,19408,Mr. G.KODANDA  RAMAIAH,Uro Package IX,Cubical,Urology,Done,Banjara Hills
+84,AIBH.158662,19409,Mr. B. SRINIVASA  REDDY,LASER RIRS (P),Cubical,Urology,Done,Banjara Hills
+85,AIBH.158662,19409,Mr. B. SRINIVASA  REDDY,URSL+DJS (P),Cubical,Urology,Done,Banjara Hills
+86,AIBH.158702,19410,Mrs. SHOBHA  GOYAL,URSL+DJS (P),Single,Urology,Done,Banjara Hills
+87,AIBH.158702,19410,Mrs. SHOBHA  GOYAL,URSL+DJS (P),Single,Urology,Done,Banjara Hills
+88,AIBH.125284,19411,Mr. N  RAGHUPAL REDDY,TURP - MONOPOLAR (P),Single,Urology,Done,Banjara Hills
+89,AIBH.157310,19412,Mr. SHARANAPPA  K.,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+90,AIBH.158713,19416,Mr. B.UMA  MAHESH,LASER RIRS (P),Cubical,Urology,Done,Banjara Hills
+91,AIBH.158010,19417,Mr. K R ACHARY  .,Prostate Biopsy (P),DayCare,Urology,Done,Banjara Hills
+92,AIBH.158096,19419,Mrs. G  PADMA,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+93,AISC.4179,19420,Mr. BANDARI PRABHU PRAKASH  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+94,AIBH.157876,19421,Mr. C  DAMODHAR,Uro Package II,Single,Urology,Done,Banjara Hills
+95,AIBH.158741,19422,Mrs. J.VIMALA  .,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+96,AIBH.150314,19426,Mr. K  SARVESHAM,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+97,AIHT.5304,19427,Mr. MALLESWARA  RAO,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+98,AIBH.158686,19428,Mrs. VEGI  SUDHA RANI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+99,AIBH.158747,19429,Mr. PRANAB  ACHARJEE,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+100,AIBH.158130,19430,Mrs. B  BHAGYAMMA,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+101,AIBH.141069,19431,Mr. D S  KUMAR,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+102,AIBH.126585,19432,Mr. B RAMA SUBHA  REDDY,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+103,AIBH.158774,19433,Mr. S  POSHANNA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+104,AIBH.158775,19434,Mr. MOHD  SHOEB,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+105,AIBH.158721,19435,Mrs. BHAGWATI  AGARWAL,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+106,AIBH.122041,19437,Mr. RAMDAS  .,PERMACATH (P),DayCare,Nephrology,Done,Banjara Hills
+107,AIBH.158748,19438,Mr. DINESH KUMAR  CHATURVEDI,Uro Package V,Single,Urology,Done,Banjara Hills
+108,AIBH.158782,19439,Mr. KURAPATI  YADAGIRI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+109,AIBH.66387,19440,Mr. APPARAO PAWAR  .,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+110,AIBH.157081,19444,Mr. V V  KRISHNA REDDY,Uro Package XI,Single,Urology,Done,Banjara Hills
+111,AIBH.158737,19445,Mr. SUDIPTA  BHATTACHARJEE,Uro Package VIII,Cubical,Urology,Done,Banjara Hills
+112,AIBH.158755,19446,Mr. RAM GARIB  DAIVEDI,Uro Package XI,General Ward,Urology,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+113,AIBH.158786,19447,Mrs. PUJA  AGARWAL,Uro Package IX,Single,Urology,Done,Banjara Hills
+114,AIBH.127888,19448,Mr. M  VENKAT REDDY,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+115,AIBH.158815,19449,Mr. NAGAPURI  LAXMINARAYANA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+116,AIBH.157190,19450,Mrs. AMITA  HEGDE,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+117,AIBH.158807,19451,Mrs. G  LAKSHMI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+118,AIBH.158832,19453,Mrs. NAHIDA  BEGUM,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+119,AIBH.120515,19454,Mr. KAMMALA  SRINIVAS,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+120,AIBH.158830,19455,Mr. B.  BONDAIAH,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+121,AIBH.158808,19456,Mrs. G  PADMAVATHI,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+122,AIBH.158846,19457,Mr. CAPT  ARUN PRASAD,Uro package I,Single,Urology,Done,Banjara Hills
+123,AIBH.158846,19457,Mr. CAPT  ARUN PRASAD,PROSTATE BIOPSY (TRUS),Single,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+124,AIDN.13283,19468,Mr. MADESI  BAPAIAH,Uro package I,Single,Urology,Done,Banjara Hills
+125,AIHT.13734,19470,Mr. PERIYAVARAM  SAI CHARAN,Uro package I,Single,Urology,Done,Banjara Hills
+,,,REDDY,,,,,Banjara Hills
+126,AIHT.13734,19470,Mr. PERIYAVARAM  SAI CHARAN,Uro package I,Single,Urology,Done,Banjara Hills
+,,,REDDY,,,,,Banjara Hills
+127,AIBH.157865,19471,Mrs. KALINDI  CHINTAWAR,ESWL - EXTRA CORPOREAL,DayCare,Urology,Done,Banjara Hills
+,,,,SHOCK WAVE LITHOTRIPSY (P),,,,Banjara Hills
+128,AIBH.158691,19473,Mr. P  RAMA MURTHY,Uro Package V,General Ward,Urology,Done,Banjara Hills
+129,AIBH.158818,19474,Mrs. KODIGANTI  VYSHNAVI,Uro package I,General Ward,Urology,Done,Banjara Hills
+130,AIBH.158738,19475,Master V  NAVANEETH REDDY,CYSTOSCOPY (DAY CARE,DayCare,Urology,Done,Banjara Hills
+,,,,UNDER G.A.) (P ),,,,Banjara Hills
+131,AIBH.47571,19476,Mr. P.  RAJESH,URSL+DJS (P),General Ward,Urology,Done,Banjara Hills
+132,AIBH.47571,19476,Mr. P.  RAJESH,URSL+DJS (P),General Ward,Urology,Done,Banjara Hills
+133,AIBH.158865,19477,Mr. DAKTSHANAMOORTHY  .,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+134,AIBH.156672,19478,Mr. P  NAGA SAI,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+135,AIBH.158084,19480,Mr. M  RENUKA PRASAD,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+136,AIHT.13736,19481,Mr. M.  MURALIDHAR,Uro package I,General Ward,Urology,Done,Banjara Hills
+137,AIBH.157211,19483,Master CH YESWANTH  KRISHNA,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+138,AIBH.158333,19484,Mrs. T  KALPANA,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+139,AIVZ.26733,19486,Mrs. SUMITRA  AGARWAL,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+140,AIBH.142131,19488,Mr. RAJ  KUMAR JAIN,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+141,AIBH.156243,19489,Mrs. ARUNA  B,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+142,AIBH.158873,19491,Mr. BHARAT KUMAR  AGRAWAL,URSL+DJS (P),Single,Urology,Done,Banjara Hills
+143,AIBH.158886,19492,Mrs. S.PRIYANKA  .,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+144,AIBH.158749,19494,Mrs. G  MAHABOOBEE,ESWL (P),DayCare,Urology,Done,Banjara Hills
+145,AISC.4578,19495,Mr. DOMA ADI REDDY  .,DJ STENT REMOVAL (P),Single,Urology,Done,Banjara Hills
+146,AISC.4578,19495,Mr. DOMA ADI REDDY  .,LASER RIRS (P),Single,Urology,Done,Banjara Hills
+147,AIBH.158918,19496,Mr. P M REDDY  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+148,AIBH.158207,19497,Mr. V  SRINIVAS,DJ STENT REMOVAL (P),Single,Urology,Done,Banjara Hills
+149,AIBH.158916,19498,Mr. R.B RAMESH  CHAND,CYSTOSCOPY  L/A (P),DayCare,Urology,Done,Banjara Hills
+150,AIBH.158794,19499,Mr. T. RAMA  RAO,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+151,AIBH.157046,19501,Mr. ASHMAL  RAHMAN,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+152,AIHT.13450,19502,Mrs. S.  MALLESHWARI,DJ STENT REMOVAL G/A (P),DayCare,Urology,Done,Banjara Hills
+153,AIBH.155346,19503,Mr. A.  RAMA RAO,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+154,AIBH.139098,19504,Mr. 0  VIJAYANADHA REDDY,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+155,AIBH.155658,19514,Dr. AMEER AHMED  KHUSRO,Uro Package II,Twin Sharing,Urology,Done,Banjara Hills
+156,AIBH.158946,19516,Mr. MEKALA  RAJU,Uro Package V,Single,Urology,Done,Banjara Hills
+157,AIBH.141090,19517,Mrs. RUKHSANA  BANO,Uro Package XI,General Ward,Urology,Done,Banjara Hills
+158,AIBH.141090,19517,Mrs. RUKHSANA  BANO,Uro Package V,General Ward,Urology,Done,Banjara Hills
+159,AIBH.141090,19517,Mrs. RUKHSANA  BANO,CYSTOSCOPY (P),General Ward,Urology,Done,Banjara Hills
+160,AIBH.137377,19520,Mr. MOOLA  YADAVA REDDY,Uro Package IV,Twin Sharing,Urology,Done,Banjara Hills
+161,AIDN.31797,19521,Mr. PUNNA  VENKANNA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+162,AIBH.158930,19522,Mr. A T VENAKATA,PROSTATE REMOVAL - TURP (P),Single,Urology,Done,Banjara Hills
+,,,KRISHNAMACHARYULU,,,,,Banjara Hills
+163,AIBH.158930,19522,Mr. A T VENAKATA,Uro Package III,Single,Urology,Done,Banjara Hills
+,,,KRISHNAMACHARYULU,,,,,Banjara Hills
+164,AIBH.158679,19523,Mr. SANTHOSH KUMAR  G,MINI - PERC + STENTING (P),General Ward,Urology,Done,Banjara Hills
+165,AIBH.158915,19524,Mr. Y.SURESH  .,CIRCUMCISION L/A (P),DayCare,Urology,Done,Banjara Hills
+166,AIBH.128046,19525,Mr. ANIREDDY  MAHIPALREDDY,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+167,AIBH.158761,19526,Mr. NEERATI  RAVINDAR REDDY,Uro Package VII,General Ward,Urology,Done,Banjara Hills
+168,AIBH.158639,19528,Mrs. MURCHANNA  MAHAPATRA,Uro Package V,Single,Urology,Done,Banjara Hills
+169,AISC.4590,19529,Mrs. H.FATEMA  ROHAWALA,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+170,AIBH.158908,19530,Mr. SOVAN  MAJUMDAR,Renal Biopsy (P),DayCare,Urology,Done,Banjara Hills
+171,AIBH.158243,19531,Mr. AMARANENI  RAMESH,Uro package I,Single,Urology,Done,Banjara Hills
+172,AIBH.158243,19531,Mr. AMARANENI  RAMESH,DJ STENT REMOVAL (P),Single,Urology,Done,Banjara Hills
+173,AIBH.154302,19532,Mr. MADUGANI  VENKATASWAMY,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+174,AIBH.158965,19533,Mr. BANDI GANGADHAR  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+175,AIBH.123706,19534,Mrs. K  LAKSHMI KUMARI,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+176,AIBH.158968,19535,Mrs. GOUSIYA  BEGUM,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+177,AIBH.144199,19537,Mr. G  GOPAL,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+178,AIBH.158980,19538,Mr. RANGA  SWAMY,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+179,AIBH.145145,19542,Mr. SOURAV  DAS,AV FISTULA (P),DayCare,Urology,Done,Banjara Hills
+180,AIBH.158576,19543,Mr. MAHMADUR  RAHMAN,AV FISTULA (P),DayCare,Urology,Done,Banjara Hills
+181,AIBH.158321,19544,Mrs. K  SWAPNA,RIRS (P),Single,Urology,Done,Banjara Hills
+182,AIBH.158321,19544,Mrs. K  SWAPNA,DJ STENT REMOVAL (P),Single,Urology,Done,Banjara Hills
+183,AIBH.159006,19548,Mr. N K AGARWAL  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+184,AIBH.158999,19550,Mr. BHAGWAN DAS  RATHI,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+185,AIBH.126128,19551,Mrs. ZEENATH  UNISSA,CYSTOSCOPY (DAY CARE,DayCare,Urology,Done,Banjara Hills
+,,,,UNDER G.A.) (P ),,,,Banjara Hills
+186,AIBH.159005,19552,Mr. M.SUBHASH  BABU,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+187,AIBH.159004,19555,Mrs. SOYAM  SREEDEVI,Uro Package III,General Ward,Urology,Done,Banjara Hills
+188,AIBH.158979,19557,Mr. SUKHI  EKKA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+189,AIBH.159011,19558,Mrs. MITALI  DEB,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+190,AIBH.159025,19559,Mr. MOHAN LAL  HARIJAN,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+191,AIBH.159012,19560,Mr. R.JAYAPAL  REDDY,DJ STENT REMOVAL (P),Single,Urology,Done,Banjara Hills
+192,AIBH.136394,19565,Mrs. CHETLA  CHANDRA KALA,AV FISTULA (P),DayCare,Urology,Done,Banjara Hills
+193,AIBH.127418,19566,Mr. N RAVINDRA  REDDY,Cystoscopy + URS Lithotripsy +,General Ward,Urology,Done,Banjara Hills
+,,,,DJ Stenting (P),,,,Banjara Hills
+194,AIBH.121284,19568,Mr. T M  JAYA RAO,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+195,AIBH.159039,19569,Mr. DANTHULURI JANAKI  RAMA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+,,,RAJU,,,,,Banjara Hills
+196,AIBH.158859,19570,Mrs. RADHA  RUKMINI,CYSTOSCOPY (DAY CARE,DayCare,Urology,Done,Banjara Hills
+,,,,UNDER G.A.) (P ),,,,Banjara Hills
+197,AIBH.133899,19572,Mr. MOHAMMED  SHABBIR,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+198,AIBH.159022,19573,Mr. SHANMUGAM  KANDASAMY,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+199,AIBH.158281,19574,Ms. G  MOUNIKA,LASER RIRS BELOW 1CM (P),Single,Urology,Done,Banjara Hills
+200,AIBH.158281,19574,Ms. G  MOUNIKA,DJ STENT REMOVAL (P),Single,Urology,Done,Banjara Hills
+201,AIBH.158281,19574,Ms. G  MOUNIKA,DJ STENT REMOVAL (P),Single,Urology,Done,Banjara Hills
+202,AIBH.157973,19575,Mrs. D  ACHUTA KUMARI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+203,AIBH.159010,19576,Mr. BRIJ MOHAN  GUPTA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+204,AIBH.158225,19578,Mrs. FATHIMA  .,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+205,AIBH.158323,19579,Mrs. CH  SOUNDARYA,Uro Package III,Twin Sharing,Urology,Done,Banjara Hills
+206,AIBH.24292,19580,Mr. P DHEERAJ  VEER,Uro Package III,General Ward,Urology,Done,Banjara Hills
+207,AIBH.120710,19581,Mr. A  SIVA PRASAD,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+208,AIHT.13790,19582,Mr. PULLA RAO  V,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+209,AIBH.159058,19583,Dr. R K.  SAMATA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+210,AIBH.157665,19584,Mr. YASH  AGARWAL,DJ STENT REMOVAL G/A (P),Single,Urology,Done,Banjara Hills
+211,AIBH.158194,19585,Mr. B  NAGULAIAH,Uro Package VII,General Ward,Urology,Done,Banjara Hills
+212,AIBH.159010,19586,Mr. BRIJ MOHAN  GUPTA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+213,AIBH.155333,19587,Mr. NASIR BIN MOHD  .,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+214,AIHT.13648,19589,Mr. BRAJA  KISHORE SAHU,Uro package I,General Ward,Urology,Done,Banjara Hills
+215,AIBH.155870,19590,Mr. M  CHANDRASEKAR,AV FISTULA (P),DayCare,Urology,Done,Banjara Hills
+216,AIBH.84257,19591,Master B CHIRAG  YADAV,CYSTOSCOPY (DAY CARE,DayCare,Urology,Done,Banjara Hills
+,,,,UNDER G.A.) (P ),,,,Banjara Hills
+217,AIBH.159065,19592,Mr. RAMAKRISHNA  CHEGOORI,Uro Package VII,General Ward,Urology,Done,Banjara Hills
+218,AIBH.159040,19593,Mr. RAKESH  KUMAR,Uro Package VIII,Single,Urology,Done,Banjara Hills
+219,AIBH.158390,19594,Mrs. T.  ANASUYA,Uro Package III,Single,Urology,Done,Banjara Hills
+220,AISC.4513,19595,Mr. M V  GEORGE,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+221,AIBH.159037,19596,Mr. PATTAN  SIRAJ UDDIN NAYAB,PCNL - Unilateral (P),Cubical,Urology,Done,Banjara Hills
+222,AIBH.159017,19597,Mr. RAM PRAKASH  GUPTA,Renal Biopsy (P),DayCare,Urology,Done,Banjara Hills
+223,AIBH.159014,19600,Mrs. B.NEETHA  CHANDANA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+224,AIBH.159081,19601,Mr. P.ISMAIL  KHAN,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+225,AIBH.159089,19602,Mr. RAYEES  AHMED,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+226,AIBH.159088,19604,Mr. SINGI REDDY  SATHI REDDY,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+227,AIBH.159070,19606,Mr. K  CHINNA REDDY,Uro Package VIII,Cubical,Urology,Done,Banjara Hills
+228,AIBH.159097,19607,Mr. B  RADHA KISHAN,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+229,AIBH.158441,19608,Mr. JAYA DEVA  REDDY,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+230,AIBH.154784,19613,Mr. D  SUBHASH PATIL,AV FISTULA (P),DayCare,Urology,Done,Banjara Hills
+231,AIBH.156804,19614,Master AYANSH  MANDAL,DJ STENT REMOVAL G/A (P),DayCare,Urology,Done,Banjara Hills
+232,AIBH.152510,19615,Mrs. SRIDEVI  GUNTAPALLI,Uro Package II,Twin Sharing,Urology,Done,Banjara Hills
+233,AIBH.157599,19616,Mr. VITHESH  REDDY,Uro package I,Single,Urology,Done,Banjara Hills
+234,AIBH.158375,19617,Mrs. M VIJAYA  LAKSHMI,Uro Package VII,General Ward,Urology,Done,Banjara Hills
+235,AIBH.158375,19617,Mrs. M VIJAYA  LAKSHMI,Uro package I,General Ward,Urology,Done,Banjara Hills
+236,AIBH.146455,19619,Mrs. B  ROJA RANI,ESWL - EXTRA CORPOREAL,DayCare,Urology,Done,Banjara Hills
+,,,,SHOCK WAVE LITHOTRIPSY (P),,,,Banjara Hills
+237,AIBH.158868,19620,Mr. GOWRA  PRASAD,Uro Package VII,Deluxe,Urology,Done,Banjara Hills
+238,AIBH.151942,19621,Mr. DEEPAK  KUMAR JAISWAL,Uro Package II,Single,Urology,Done,Banjara Hills
+239,AIBH.159085,19622,Mr. MRUTHYUNJAI AGARWAL,Uro package I,Single,Urology,Done,Banjara Hills
+,,,AGARWAL,,,,,Banjara Hills
+240,AIBH.158920,19623,Mr. KARTEYA  SANGWAI,Uro Package VII,Single,Urology,Done,Banjara Hills
+241,AIBH.127326,19624,Mr. CHHOTE LAL  SHRIVASTAVA,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+242,AIBH.158699,19625,Mr. SAWARMAL  M,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+243,AIBH.145668,19626,Mrs. M  RAJETHA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+244,AIBH.125754,19628,Mr. A  TRIMURTULU,CYSTOSCOPY  L/A (P),DayCare,Urology,Done,Banjara Hills
+245,AIBH.133072,19629,Mrs. MALA RANI  DAS,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+246,AIBH.159122,19631,Mrs. MINAKSHI  SAHA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+247,AIBH.127919,19636,Mrs. P  VASANTHA,Uro Package VIII,General Ward,Urology,Done,Banjara Hills
+248,AIBH.114826,19637,Mrs. Nirmala Rani U  .,Uro package I,Single,Urology,Done,Banjara Hills
+249,AIBH.159152,19642,Mr. B  SHIVA CHARAN REDDY,CIRCUMCISION (P),DayCare,Urology,Done,Banjara Hills
+250,AIBH.156327,19643,Mr. AQUEEL UDDIN  FAROOQI,Uro Package XI,Single,Urology,Done,Banjara Hills
+251,AIBH.159022,19644,Mr. SHANMUGAM  KANDASAMY,Uro Package IV,General Ward,Urology,Done,Banjara Hills
+252,AIBH.148630,19645,Mr. SUDIPTA  SAHA,Uro package I,Single,Urology,Done,Banjara Hills
+253,AIBH.157242,19646,Mr. A  NAVEEN KUMAR,Renal Biopsy (P),DayCare,Urology,Done,Banjara Hills
+254,AIBH.157406,19648,Mrs. KUREZA  BEGUM,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+255,AIBH.158090,19649,Mr. BODLA  RAMESH,Uro package I,Single,Urology,Done,Banjara Hills
+256,AIBH.121993,19650,Mr. B  NARESH,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+257,AIBH.121993,19650,Mr. B  NARESH,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+258,AIBH.158186,19651,Mrs. AMBALA  KOUSALYA GOUD,Uro package I,Cubical,Urology,Done,Banjara Hills
+259,AIBH.158186,19651,Mrs. AMBALA  KOUSALYA GOUD,DJ STENT REMOVAL (P),Cubical,Urology,Done,Banjara Hills
+260,AIBH.158186,19651,Mrs. AMBALA  KOUSALYA GOUD,DJ STENT REMOVAL (P),Cubical,Urology,Done,Banjara Hills
+261,AIBH.159166,19652,Mrs. K  KOUSALYA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+262,AIBH.158589,19653,Mr. G  CHANDU KUMAR,LASER RIRS (P),Cubical,Urology,Done,Banjara Hills
+263,AIBH.158589,19653,Mr. G  CHANDU KUMAR,DJ STENT REMOVAL (P),Cubical,Urology,Done,Banjara Hills
+264,AIBH.158276,19654,Mr. ABDIRAHAMAN  SALAD MUMIN,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+265,AIBH.41660,19656,Mr. N SHIVA KUMAR  .,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+266,AIBH.159169,19657,Mr. VIJAY  KUMAR JHA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+267,AIBH.159150,19658,Mrs. P  PUSHPA RAJESWARI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+268,AIBH.159142,19659,Mr. KACHAM  LAKSHMAN RAO,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+269,AIBH.159179,19660,Mrs. R  MOUNIKA,CYSTOSCOPY  L/A (P),DayCare,Urology,Done,Banjara Hills
+270,AIBH.155026,19662,Mr. WASIM AHMAD SAFI  -,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+271,AIBH.159169,19663,Mr. VIJAY  KUMAR JHA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+272,AIBH.155362,19670,Mrs. HAWO ADAN  ISMAIL,Uro Package x,Twin Sharing,Urology,Done,Banjara Hills
+273,AISC.4780,19671,Mr. PANDARAIAH  NAGILLA,Uro Package VIII,Single,Urology,Done,Banjara Hills
+274,AIBH.159222,19672,Mrs. MANJU  HATI,Uro Package II,Twin Sharing,Urology,Done,Banjara Hills
+275,AIBH.159172,19673,Mrs. AKTHAR UNNISA  BEGUM,Uro Package II,Single,Urology,Done,Banjara Hills
+276,AIBH.159119,19675,Mr. CHITTIGALA  MADHUKAR RAJ,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+277,AIDN.32366,19677,Mr. MOHAMMED  YOUSUF ALI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+278,AIBH.155997,19678,Mr. DIPAL DEBBARMA  -,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+279,AIBH.158595,19679,Mrs. TALLAM SHAILAJA  KUMARI,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+280,AIBH.124009,19680,Baby AMARA  MARYAM,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+281,AIBH.105473,19681,Mr. P SATHYAM  .,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+282,AIHT.13664,19682,Mr. YADATI  GURUMANIKYAM,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+283,AIBH.120293,19683,Mr. AILAIAH  ATMAKUR,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+284,AIBH.120563,19684,Mr. MD  MOIN,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+285,AIBH.159249,19685,Mr. J SUNEEL KUMAR  -,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+286,AIBH.159227,19686,Mrs. HAJEERA  BEGUM,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+287,AIBH.136689,19687,Mrs. MUVVA  SRIVALLI,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+288,AIBH.139543,19689,Mr. K. VENKATAIAH  .,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+289,AIBH.154857,19690,Mrs. CHANDRA KALA  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+290,AIBH.159256,19692,Mr. PALAKURTHI KISHAN  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+291,AIBH.159257,19693,Mr. G.ADEPPA  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+292,AIBH.159251,19694,Mrs. B.  SUPRABHA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+293,AIBH.116233,19695,Mrs. D LAKSHMI  HANISHA,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+294,AIBH.158361,19697,Mr. YERRA  VENKATESHWARLU,Uro Package VII,Single,Urology,Done,Banjara Hills
+295,AIBH.159199,19699,Mrs. GURRALA  RENUKA,PCNL - Unilateral (P),General Ward,Urology,Done,Banjara Hills
+296,AIBH.159234,19700,Mrs. KOUTIK WAR  SUREKHA,Uro Package VII,Cubical,Urology,Done,Banjara Hills
+297,AIDN.32245,19702,Mrs. AKULA  SARASWATHI,Uro package I,Cubical,Urology,Done,Banjara Hills
+298,AIBH.159267,19704,Mr. DHAVATH  NAGA RAJU,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+299,AIDN.31531,19705,Mr. CHERUKU  NARSIMHA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+300,AIBH.157388,19707,Mr. A. KRISHNA  RAO,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+301,AIBH.159293,19708,Mrs. BHAGYAMMA THOTA  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+302,AIBH.6937,19709,Mr. MALLESHWAR  A,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+303,AIBH.158542,19710,Mr. C  KURUMURTHY,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+304,AIBH.156099,19711,Mr. MINTOO GUPTA  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+305,AIDN.29873,19712,Mr. S ROOPA  SRIHARSHA,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+306,AIBH.120761,19713,Mr. K N  SEKHAR,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+307,AIBH.157217,19714,Mr. NARRA SRINIVAS  REDDY,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+308,AIBH.120801,19715,Mrs. MANEMMA  D,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+309,AIBH.139756,19716,Mr. K  MALLESHAM,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+310,AIBH.156478,19717,Mrs. SHAZIYA  FATIMA,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+311,AIBH.159302,19718,Mrs. MADIGA SHYAMULAMMA  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+312,AIBH.155096,19719,Mrs. RAZIYA  BEGUM,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+313,AIBH.159281,19720,Mrs. D  PADMAVATHI,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+314,AIBH.154598,19721,Mrs. RACHANA  KANODIA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+315,AIBH.157668,19723,Mrs. PARVEEN  SULTANA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+316,AIBH.144744,19724,Mr. V  SHANKAR,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+317,AIBH.34520,19725,Mr. ADHIR  BISWAS,Uro Package II,SICU,Urology,Done,Banjara Hills
+318,AIBH.136706,19726,Mrs. P  NIRMALA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+319,AIBH.159284,19727,Mr. B  RAVINDER,Uro Package VIII,General Ward,Urology,Done,Banjara Hills
+320,AIBH.154015,19730,Mr. NIRIPEN  DHIBAR,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+321,AIBH.159313,19731,Mrs. S.SHAKUNTHALA  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+322,AIBH.144161,19732,Mr. N.  SURYANARAYANA RAJU,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+323,AIBH.157991,19733,Mr. YAMSANI  VENKATESHWARLU,Uro Package IX,Cubical,Urology,Done,Banjara Hills
+324,AIBH.157991,19733,Mr. YAMSANI  VENKATESHWARLU,Uro package I,Cubical,Urology,Done,Banjara Hills
+325,AIBH.157991,19733,Mr. YAMSANI  VENKATESHWARLU,Uro package I,Cubical,Urology,Done,Banjara Hills
+326,AIBH.158761,19734,Mr. NEERATI  RAVINDAR REDDY,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+327,AIBH.158445,19737,Mr. ASHOK  RADHAKISHAN,Uro Package IX,General Ward,Urology,Done,Banjara Hills
+328,AIBH.157568,19740,Mr. T.  RAMULU,Uro package I,Cubical,Urology,Done,Banjara Hills
+329,AIBH.111284,19741,Mr. Ch Dharmaraju  .,Uro Package VI,Single,Urology,Done,Banjara Hills
+330,AIBH.111284,19741,Mr. Ch Dharmaraju  .,Uro package I,Single,Urology,Done,Banjara Hills
+331,AIBH.155346,19743,Mr. A.  RAMA RAO,Uro Package IV,Twin Sharing,Urology,Done,Banjara Hills
+332,AIBH.158662,19746,Mr. B. SRINIVASA  REDDY,DJ STENT REMOVAL (P),DayCare,Urology,Done,Banjara Hills
+333,AIBH.159242,19747,Mr. CH SANKAR  RAO,LASER RIRS (P),Cubical,Urology,Done,Banjara Hills
+334,AIBH.158951,19748,Mr. AMIT KUMAR  PAUL,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+335,AIBH.159317,19749,Mr. MADDIMSETTI  RAMA RAO,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+336,AIBH.159317,19749,Mr. MADDIMSETTI  RAMA RAO,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+337,AIBH.113615,19750,Mr. A KUTUMBA RAO  .,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+338,AIBH.158341,19751,Mrs. CH  BHAGYA LAKSHMI,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+339,AIBH.159180,19752,Mr. C  VENKATARATHNAM,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+340,AIBH.157771,19753,Mr. YANAMALA SATHYA  NARAYANA,Uro Package XI,Single,Urology,Done,Banjara Hills
+341,AIBH.158713,19754,Mr. B.UMA  MAHESH,DJ STENT REMOVAL (P),DayCare,Urology,Done,Banjara Hills
+342,AIBH.157474,19755,Mrs. DEEPIKA  V,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+343,AIDN.31841,19756,Mr. PONUGOTI  VENKATESHWAR,PERMACATH (P),DayCare,Nephrology,Done,Banjara Hills
+,,,RAO,,,,,Banjara Hills
+344,AIBH.159366,19757,Mrs. M.VIJAYA  LAXMI,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+345,AIBH.154446,19758,Ms. SYEDA HUMERA  TABASSUM,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+346,AIBH.159317,19760,Mr. MADDIMSETTI  RAMA RAO,Uro package I,Single,Urology,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+347,AIBH.158511,19764,Mr. ASHOK KR  DAS GUPTA,Uro Package XI,General Ward,Urology,Done,Banjara Hills
+348,AIBH.159292,19765,Mr. SYED KHAJA  FAREEDUDDIN,Uro Package V,Single,Urology,Done,Banjara Hills
+349,AIBH.158230,19766,Mrs. SHILPA  K,Uro package I,Single,Urology,Done,Banjara Hills
+350,AIBH.158230,19766,Mrs. SHILPA  K,DJ STENT REMOVAL G/A (P),Single,Urology,Done,Banjara Hills
+351,AIBH.159376,19767,Mr. SANJAY  RAMRAO RUIKAR,Uro Package XI,Single,Urology,Done,Banjara Hills
+352,AIBH.157427,19769,Mrs. HALANE FADUMA  SHIRE,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+353,AISC.635,19770,Mr. PRADIP  SIRCER,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+354,AIBH.158888,19771,Mr. SUBBARAO  P,Uro Package III,Single,Urology,Done,Banjara Hills
+355,AIBH.158888,19771,Mr. SUBBARAO  P,URETHRAL DILATION (P),Single,Urology,Done,Banjara Hills
+356,AIHT.13824,19772,Mr. SATISH  NALAM,Uro package I,Single,Urology,Done,Banjara Hills
+357,AIBH.159293,19773,Mrs. BHAGYAMMA THOTA  .,CYSTOSCOPY G/A (P),DayCare,Urology,Done,Banjara Hills
+358,AIBH.138934,19775,Mr. KOMMURU  SATYANNARAYANA,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+359,AIBH.159278,19776,Mr. N ANIL  REDDY,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+360,AIDN.32446,19777,Mr. N  VENKATA KRISHNA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+361,AIBH.80590,19778,Mrs. JAKKULA SHARADHA  .,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+362,AIBH.159214,19779,Mr. V.  VENKATESHWARA RAO,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+363,AIBH.158547,19780,Mr. PANTANGI.NARAYAN  .,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+364,AIBH.159397,19781,Mr. S.PAVAN  KUMAR,RIRS (P),Single,Urology,Done,Banjara Hills
+365,AIBH.159397,19781,Mr. S.PAVAN  KUMAR,DJ STENT REMOVAL (P),Single,Urology,Done,Banjara Hills
+366,AIBH.159357,19783,Mr. D  DAMODAR  RAO,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+367,AIBH.143032,19784,Mr. UMMAREDDY  RAMREDDY,Uro Package VI,Cubical,Urology,Done,Banjara Hills
+368,AIBH.159427,19785,Mr. V SRINIVAS  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+369,AIBH.159343,19787,Mr. M  NAGARJUNA  REDDY,Uro Package VII,Single,Urology,Done,Banjara Hills
+370,AIBH.159386,19788,Mr. M KUMARA  SWAMY,Uro Package VII,Cubical,Urology,Done,Banjara Hills
+371,AIBH.158870,19790,Mr. ELLANKI SRIDHAR  RAO,Uro Package V,General Ward,Urology,Done,Banjara Hills
+372,AIBH.159279,19791,Mrs. KOLLI  LALITHA,URSL+DJS (P),Single,Urology,Done,Banjara Hills
+373,AIBH.159119,19792,Mr. CHITTIGALA  MADHUKAR RAJ,Uro Package IV,Single,Urology,Done,Banjara Hills
+374,AIBH.148184,19793,Mr. MEGAVATH SHANKAR  NAYAK,Uro Package II,General Ward,Urology,Done,Banjara Hills
+375,AIBH.159181,19794,Mr. SATHISH  DAKE,Uro Package V,Single,Urology,Done,Banjara Hills
+376,AIBH.159444,19796,Baby KAKARAPARTHI SRINIKA  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+377,AIBH.142566,19797,Mr. B  SAI UTTEJ,Uro Package III,General Ward,Urology,Done,Banjara Hills
+378,AIBH.159235,19798,Mr. M  ANANDAM,Uro Package V,General Ward,Urology,Done,Banjara Hills
+379,AIBH.159193,19799,Mr. M. HANUMANTHA  RAO,Uro Package VIII,General Ward,Urology,Done,Banjara Hills
+380,AIBH.157665,19801,Mr. YASH  AGARWAL,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+381,AIBH.159454,19802,Mr. A NARASIMHA ACHARYULU  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+382,AIBH.158752,19803,Mr. P.ESHWARAIAH  .,Uro Package III,General Ward,Urology,Done,Banjara Hills
+383,AIBH.158818,19804,Mrs. KODIGANTI  VYSHNAVI,DJ STENT REMOVAL G/A (P),DayCare,Urology,Done,Banjara Hills
+384,AIBH.155071,19806,Mr. RAMCHAND  PESHWANI,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+385,AIBH.159381,19807,Mr. SAAD MOHAMMED ABDUL,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+386,AIBH.159456,19809,Mr. SHOUKATH JAGEDHEER  .,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+387,AIHT.13923,19812,Mr. VINOD KUMAR  MUNIPALLI,RIRS + DJ STENTING,Single,Urology,Done,Banjara Hills
+,,,,UNILATERAL (P),,,,Banjara Hills
+388,AIBH.159075,19813,Mr. HARSHITH  BATCHA,CIRCUMCISION (P),DayCare,Urology,Done,Banjara Hills
+389,AIBH.159463,19814,Mr. M.A  MUJAHID,Uro Package V,Single,Urology,Done,Banjara Hills
+390,AIBH.159286,19815,Mrs. M JAYA  LAKSHMI,CIRCUMCISION (P),DayCare,Urology,Done,Banjara Hills
+391,AIBH.159432,19816,Mr. ANWAR MOHD RIYAZ  .,Uro Package IV,Deluxe,Urology,Done,Banjara Hills
+392,AIBH.145651,19817,Mr. M KRISHNA  REDDY,CYSTOSCOPY (FLEXIBLE) (P),Cubical,Urology,Done,Banjara Hills
+393,AIBH.157408,19818,Mr. JAIPAL  DHOBALE,PROSTATE REMOVAL - TURP (P),Cubical,Urology,Done,Banjara Hills
+394,AIBH.157408,19818,Mr. JAIPAL  DHOBALE,Uro Package III,Cubical,Urology,Done,Banjara Hills
+395,AIBH.159489,19821,Mrs. SHAILAJA  S,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+396,AIBH.88373,19822,Ms. A ANISHA  .,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+397,AIBH.159497,19826,Mrs. FARHANA  BEGUM,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+398,AIBH.158523,19827,Mr. AJAY KUMAR  GHOSH,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+399,AIBH.158502,19828,Mr. AJIT  JAGANNATHAN,Uro Package VI,Single,Urology,Done,Banjara Hills
+400,AIBH.158849,19829,Mrs. NEHA  JAIN,Uro Package III,General Ward,Urology,Done,Banjara Hills
+401,AIBH.157754,19830,Mrs. KARABI  KAKATI,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+402,AIBH.159203,19831,Mr. HARIDHAN  DAS GUPTA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+403,AIBH.159493,19832,Mrs. DEEPTHI  M,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+404,AIBH.158879,19833,Mr. V  NAGA BASI REDDY,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+405,AIBH.43500,19834,Mr. L JANARDHAN REDDY  .,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+406,AIBH.124559,19835,Mr. M RANGA  SWAMY,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+407,AIBH.159498,19836,Mr. K  JASWANTH,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+408,AIVZ.10298,19837,Mrs. M  LALITHA,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+409,AIHT.13933,19838,Mr. M  NARAYANA RAJU,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+410,AIBH.159459,19840,Mr. MRINAL  KANTI BASAK,PROSTATE BIOPSY (TRUS),DayCare,Urology,Done,Banjara Hills
+,,,,S.G/A (P),,,,Banjara Hills
+411,AIBH.101897,19841,Mr. SHRIKANT JHAWAR  .,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+412,AIBH.159507,19846,Mrs. G  THIRUPATHAMMA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+413,AIBH.159480,19847,Mrs. SIPRA DUTTA PAL  .,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+414,AIBH.107149,19848,Mr. VALABOJU  CHANDRAMOULI,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+415,AIBH.159514,19849,Mrs. K  CHANDRA KALA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+416,AIBH.159484,19850,Mrs. N  SAMATHA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+417,AIBH.154816,19851,Mr. SYED ABDUL NAYEEM  .,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+418,AIBH.159169,19856,Mr. VIJAY  KUMAR JHA,PROSTATE REMOVAL - TURP (P),Single,Urology,Done,Banjara Hills
+419,AIBH.159169,19856,Mr. VIJAY  KUMAR JHA,PROSTATE REMOVAL - TURP (P),Single,Urology,Done,Banjara Hills
+420,AIBH.159558,19857,Mrs. G.  KALYANI,RIRS (P),Single,Urology,Done,Banjara Hills
+421,AIBH.157754,19860,Mrs. KARABI  KAKATI,Uro Package IX,General Ward,Urology,Done,Banjara Hills
+422,AIBH.159512,19861,Mr. P VASU DEVA  REDDY,URSL+DJS (P),Single,Urology,Done,Banjara Hills
+423,AIBH.159512,19861,Mr. P VASU DEVA  REDDY,URSL+DJS (P),Single,Urology,Done,Banjara Hills
+424,AIBH.159512,19861,Mr. P VASU DEVA  REDDY,Lithotripsy + ESWL + Stenting -,Single,Urology,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+425,AIBH.127917,19862,Mr. MALKIREDDY  DASTAGIRI REDDY,Renal Biopsy (P),DayCare,Urology,Done,Banjara Hills
+426,AIBH.158314,19863,Mr. K  VENKATESWARLU,Uro package I,General Ward,Urology,Done,Banjara Hills
+427,AIBH.158314,19863,Mr. K  VENKATESWARLU,DJ STENT REMOVAL (P),General Ward,Urology,Done,Banjara Hills
+428,AIBH.158314,19863,Mr. K  VENKATESWARLU,DJ STENT REMOVAL (P),General Ward,Urology,Done,Banjara Hills
+429,AIBH.133652,19864,Mr. B  KISHAN JI,DJ STENT REMOVAL G/A (P),DayCare,Urology,Done,Banjara Hills
+430,AIBH.133652,19864,Mr. B  KISHAN JI,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+431,AIBH.158944,19865,Mrs. G.  DURGA MALLESWARI CHO,CHECK RIRS (P),DayCare,Infection Control,Done,Banjara Hills
+432,AIBH.159498,19867,Mr. K  JASWANTH,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+433,AIBH.158059,19868,Mr. K  BALAKRISHNA,PERMACATH (P),DayCare,Nephrology,Done,Banjara Hills
+434,AIBH.157995,19869,Mrs. ANARO  DEVI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+435,AIBH.159477,19870,Mr. PRAVEEN  KUMAR,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+436,AIBH.121349,19871,Mr. B MOHAN  RAO,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+437,AIBH.155761,19872,Mr. CHINTAGADA  DASU,CYSTOSCOPY (FLEXIBLE) (P),Single,Urology,Done,Banjara Hills
+438,AIBH.159467,19873,Mrs. M.  DIVYASRI,Uro package I,Single,Urology,Done,Banjara Hills
+439,AIBH.146722,19874,Mrs. PALLEPATI  LAKSHMI DEVI,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+440,AIBH.40636,19877,Mr. MD ABDUL WADOOD  .,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+441,AIBH.159604,19878,Mrs. NARLA  SARITHA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+442,AIBH.151778,19879,Mr. MAHESH MANTRI  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+443,AIBH.159550,19884,Mr. P  KRISHNA PRASADA RAO,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+444,AIBH.159118,19885,Mr. MD  ABDUL GHANI,Uro Package XI,Single,Urology,Done,Banjara Hills
+445,AIBH.159624,19886,Mr. PERAKA  NARSAIAH,Uro package I,General Ward,Urology,Done,Banjara Hills
+446,AIBH.151225,19888,Mrs. RONTALA  ANITHA,Uro package I,Single,Urology,Done,Banjara Hills
+447,AIBH.155083,19889,Mr. JAYNAL  ABEDIN,ESWL (P),DayCare,Urology,Done,Banjara Hills
+448,AIBH.158702,19890,Mrs. SHOBHA  GOYAL,LASER RIRS (P),Single,Urology,Done,Banjara Hills
+449,AIBH.158702,19890,Mrs. SHOBHA  GOYAL,LASER RIRS (P),Single,Urology,Done,Banjara Hills
+450,AIBH.158702,19890,Mrs. SHOBHA  GOYAL,DJ STENT REMOVAL (P),Single,Urology,Done,Banjara Hills
+451,AIBH.158702,19890,Mrs. SHOBHA  GOYAL,DJ STENT REMOVAL (P),Single,Urology,Done,Banjara Hills
+452,AIBH.159570,19891,Mr. KALISETTI  SIVAYYA,Renal Biopsy (P),DayCare,Urology,Done,Banjara Hills
+453,AIBH.159428,19892,Mr. P.SHANKAR  YADAV,PROSTATE REMOVAL - TURP (P),Single,Urology,Done,Banjara Hills
+454,AIBH.144772,19893,Mr. KAMAL  KISHORE AGARWAL,PROSTATE REMOVAL - TURP (P),Cubical,Urology,Done,Banjara Hills
+455,AIBH.159598,19894,Mr. G.ROHIT  REDDY,CIRCUMCISION L/A (P),DayCare,Urology,Done,Banjara Hills
+456,AIBH.39840,19897,Mr. B Keshava Reddy  .,Uro Package II,Single,Urology,Done,Banjara Hills
+457,AIBH.155794,19898,Mr. CH  PRABHAKAR,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+458,AIBH.159590,19899,Mr. MD  SHAREF KHAN,Uro Package IV,General Ward,Urology,Done,Banjara Hills
+459,AIBH.159627,19900,Mr. A P  RAJENDRA,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+460,AIBH.159517,19901,Mr. V V  NARASIMHA RAO,LASER TURP (P),Cubical,Urology,Done,Banjara Hills
+461,AIBH.159504,19902,Mr. GUGULOTH  RAKESH,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+462,AIBH.148018,19903,Mr. SHAIK  NAZEER AHMED,PROSTATE REMOVAL - TURP (P),Single,Urology,Done,Banjara Hills
+463,AIDN.32163,19904,Mr. M  VNS SATHYANARAYANA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+464,AIBH.136850,19905,Mrs. T JANABAI  .,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+465,AIHT.13884,19906,Mr. MANDAVA  GANDHI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+466,AIBH.159639,19907,Mr. ABDUL QUAYYUM SHABAZ  SYE,RIRS (P),Single,Urology,Done,Banjara Hills
+467,AIBH.87418,19908,Mr. V SURENDER REDDY  .,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+468,AIBH.102546,19909,Dr. R Sreedaya  .,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+469,AIBH.159647,19911,Mrs. L.KALYANI  .,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+470,AIBH.159636,19912,Mrs. SWADESH  PODDAR,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+471,AIBH.159664,19913,Mrs. A  PADMAVATHI,Uro Package II,SICU,Urology,Done,Banjara Hills
+472,AIBH.127585,19914,Mr. M  DASARADHARAM,AV FISTULA (P),DayCare,Urology,Done,Banjara Hills
+473,AIBH.155734,19915,Mrs. P.  SATHAMMA,Uro Package XI,General Ward,Urology,Done,Banjara Hills
+474,AIBH.159588,19916,Mrs. DURGAM  RADHIKA,Uro Package IX,Cubical,Urology,Done,Banjara Hills
+475,AIBH.159593,19917,Mr. UTPAL  DEKA,Uro Package V,General Ward,Urology,Done,Banjara Hills
+476,AIBH.151778,19918,Mr. MAHESH MANTRI  .,TURP - BIPOLAR (P),Single,Urology,Done,Banjara Hills
+477,AIBH.159477,19919,Mr. PRAVEEN  KUMAR,Uro Package VIII,Single,Urology,Done,Banjara Hills
+478,AIBH.132488,19923,Mr. RAVULA  MANI VARDHAN,RIRS (P),Single,Urology,Done,Banjara Hills
+479,AIBH.158748,19924,Mr. DINESH KUMAR  CHATURVEDI,Uro Package VII,Single,Urology,Done,Banjara Hills
+480,AIBH.144559,19927,Mrs. CHITHRA SENA  VALLURU,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+481,AIDN.28423,19928,Mr. R  BABU SINGH,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+482,AIBH.158639,19931,Mrs. MURCHANNA  MAHAPATRA,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+483,AIBH.120114,19932,Mr. SATYANARAYANA  G,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+484,AIBH.80567,19933,Mrs. Syed Zubeda Begum  .,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+485,AIBH.118880,19934,Mrs. K Kumari  .,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+486,AIBH.158635,19935,Mrs. K.PRAMEELA  .,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+487,AIBH.159491,19939,Mrs. RAJASHRI  BHIMANPALLI,PCNL + STENTING (P),Cubical,Urology,Done,Banjara Hills
+488,AIBH.159684,19942,Mrs. KANDIKRUPA  PUSPA LATHA,LASER RIRS MORETHEN 1CM (P),Cubical,Urology,Done,Banjara Hills
+489,AIBH.159684,19942,Mrs. KANDIKRUPA  PUSPA LATHA,Uro package I,Cubical,Urology,Done,Banjara Hills
+490,AIBH.159684,19942,Mrs. KANDIKRUPA  PUSPA LATHA,URSL+DJS (P),Cubical,Urology,Done,Banjara Hills
+491,AIBH.159161,19943,Mr. CHINTHAPATLA  KAMALAKAR,Uro Package IX,Single,Urology,Done,Banjara Hills
+,,,RAO,,,,,Banjara Hills
+492,AIBH.159325,19944,Mr. KHURSHEED UZ  ZAMAN,Uro Package V,Single,Urology,Done,Banjara Hills
+493,AIBH.157966,19946,Mr. NADELLA  SUBBARAO,Uro Package IX,Single,Urology,Done,Banjara Hills
+494,AIBH.123835,19947,Mr. P SHYAM  SUNDER,TURP - MONOPOLAR (P),Single,Urology,Done,Banjara Hills
+495,AIBH.159324,19948,Mr. CHELIMEDA  BRAHMAM,Uro Package V,Single,Urology,Done,Banjara Hills
+496,AIBH.156708,19949,Mrs. K.  ATCHAMAMBA,CHECK RIRS (P),DayCare,Infection Control,Done,Banjara Hills
+497,AIBH.23792,19951,Mr. P VENUGOPAL REDDY  .,Uro Package VI,Single,Urology,Done,Banjara Hills
+498,AIBH.159721,19953,Mrs. KATTA  NAGARATNAM,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+499,AIBH.158871,19954,Mrs. V  ANITHA,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+500,AIBH.159554,19955,Mrs. M  RAMADEVI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+501,AIBH.159718,19956,Mr. ANIL CH  DAS,Uro Package V,General Ward,Urology,Done,Banjara Hills
+502,AIBH.159542,19958,Mrs. AMRITA  PATRA,Uro Package VIII,Deluxe,Urology,Done,Banjara Hills
+503,AIBH.123632,19959,Mr. D  HARI,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+504,AIBH.143895,19961,Mrs. VASUNDHARA  .,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+505,AIBH.159564,19964,Mrs. ASIA  PARVEEN,Uro Package VI,Single,Urology,Done,Banjara Hills
+506,AIBH.159355,19965,Mr. B.  PRABHAKAR,Uro Package IX,Single,Urology,Done,Banjara Hills
+507,AISC.4745,19970,Mr. B  SAGAR,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+508,AIBH.159768,19971,Mr. MAHENDRA  PARUCHURI,Uro Package VI,Single,Urology,Done,Banjara Hills
+509,AIBH.159768,19971,Mr. MAHENDRA  PARUCHURI,Uro package I,Single,Urology,Done,Banjara Hills
+510,AIBH.155385,19972,Mr. G  HARI KRISHNA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+511,AIBH.159504,19973,Mr. GUGULOTH  RAKESH,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+512,AIBH.159611,19975,Mr. MANUJIT  ROY,Renal Biopsy (P),DayCare,Urology,Done,Banjara Hills
+513,AIBH.121257,19976,Mrs. SAVITHA  AGARWAL,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+514,AIBH.124194,19978,Mrs. G  RAJESHWARI,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+515,AIBH.158679,19979,Mr. SANTHOSH KUMAR  G,DJ STENT REMOVAL (P),DayCare,Urology,Done,Banjara Hills
+516,AIBH.10056,19980,Mrs. NEELAM MUKESH  THAKKER,Uro package I,Cubical,Urology,Done,Banjara Hills
+517,AISC.4831,19981,Mr. S.  BHADRAIAH,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+518,AIBH.122645,19982,Mr. ANSARU UL HAQ  KHAN,PERMACATH (P),DayCare,Nephrology,Done,Banjara Hills
+519,AIBH.159792,19983,Mr. AKASH  S NAIKAR,CYSTOSCOPY (FLEXIBLE) (P),DayCare,Urology,Done,Banjara Hills
+520,AIBH.47571,19985,Mr. P.  RAJESH,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+521,AIBH.159804,19987,Mr. TEKIRYALA  RAJU,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+522,AIBH.159,19988,Mrs. RAJAMPETA  RAMESHWARI,Uro Package II,General Ward,Urology,Done,Banjara Hills
+523,AIBH.158958,19989,Mr. MD  MAQBUL,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+524,AIBH.131770,19990,Mrs. BATCHU LAKSHMI  ANNAPURNA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+525,AIBH.159784,19991,Mrs. VALSA  PUSHPALATHA,Uro package I,General Ward,Urology,Done,Banjara Hills
+526,AIBH.159572,19992,Mr. CHALLA  DEEKSHITH,Uro package I,Cubical,Urology,Done,Banjara Hills
+527,AIBH.159720,19996,Mr. PRASAD  RENIKUNTA,Uro Package IX,Single,Urology,Done,Banjara Hills
+528,AIBH.124309,19998,Mr. S  MAHABOOB,AV FISTULA (P),DayCare,Urology,Done,Banjara Hills
+529,AIBH.159676,19999,Mr. R SURENDER  KUMAR,ESWL (P),DayCare,Urology,Done,Banjara Hills
+530,AIHT.1204,20000,Mr. VOTTEM HARI  Narayana Reddy,Uro Package V,Single,Urology,Done,Banjara Hills
+531,AIBH.159770,20001,Mr. KADIYALA LAKSHMI PATHI  RAO,Uro Package VII,Single,Urology,Done,Banjara Hills
+532,AIBH.155901,20002,Mr. T S V  PRASAD,PROSTATE REMOVAL - TURP (P),Single,Urology,Done,Banjara Hills
+533,AIBH.132363,20003,Mr. KARTIK  KAPILA,Uro package I,Single,Urology,Done,Banjara Hills
+534,AIBH.132363,20003,Mr. KARTIK  KAPILA,Uro package I,Single,Urology,Done,Banjara Hills
+535,AIBH.150930,20004,Mr. ACHYUTHA  MUNIMAKULA,STAPLER CIRCUMCISION (P),DayCare,Urology,Done,Banjara Hills
+536,AIBH.158323,20006,Mrs. CH  SOUNDARYA,DJ STENT REMOVAL L/A,DayCare,Urology,Done,Banjara Hills
+,,,,(surgery in AINU) (P),,,,Banjara Hills
+537,AIBH.159398,20007,Mrs. DEVI  KALWANI,CYSTOSCOPY  L/A (P),DayCare,Urology,Done,Banjara Hills
+538,AIBH.159308,20008,Mr. R  MAHADEV SHARMA,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+539,AIBH.18276,20009,Mrs. K Shobha Rani  .,VISUAL DIALATION (P),DayCare,Urology,Done,Banjara Hills
+540,AIBH.145198,20010,Mr. VORUGANTI  SATYANARAYANA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+541,AIBH.155401,20011,Mr. DALIM KUMAR  ROY,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+542,AIBH.159809,20012,Mr. MOHAMMED  ALMAS,LASER RIRS (P),General Ward,Urology,Done,Banjara Hills
+SlNo.,UHId,IPID,Patient Name,PackageName,BedType,Department,Status,Banjara Hills
+543,AIBH.159839,20013,Mrs. S  SRIJA,CYSTOSCOPY L/A (P),DayCare,Urology,Done,Banjara Hills
+544,AIBH.159782,20014,Mrs. AMBIKA  .,CYSTOSCOPY  L/A (P),DayCare,Urology,Done,Banjara Hills
+545,AIBH.156943,20016,Mr. KOMATI REDDY  YADAGIRI,Urodynamics Study (P),DayCare,Infection Control,Done,Banjara Hills
+,,,REDDY,,,,,

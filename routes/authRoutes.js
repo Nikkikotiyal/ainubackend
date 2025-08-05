@@ -68,6 +68,16 @@ router.get("/data", (req, res) => {
   });
 });
 
+// Temporary API to check users
+router.get("/debug-users", async (req, res) => {
+  try {
+    const users = await User.find({}, { Email: 1, UserName: 1, isDeleted: 1 });
+    res.json({ totalUsers: users.length, users });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 router.post("/sendOtp", authController.sendOtp);
 router.post("/resetPassword", authController.resetPassword);
 router.put("/deleteUser/:id", authenticateToken, authController.deleteUser);
@@ -86,12 +96,51 @@ router.delete(
   authController.deleteModule
 );
 router.get("/claims", authController.getClaims);
+router.post("/claim/soft-delete", authController.softDeleteClaimRaised);
 router.get("/specialties", authController.getSpecility);
 router.post("/addSpecility", authController.addSpecility);
 router.get("/ipdischarge", authController.getIpDischarge);
-router.post("/ip-discharge-reports/soft-delete", authController.softDeleteIpDischarge);
-
-router.get("/company-outstanding",authController.getCompanyOutstandingAgeing)
+router.post(
+  "/ip-discharge-reports/soft-delete",
+  authController.softDeleteIpDischarge
+);
+router.post(
+  "/adt-admission/delete-many",
+  authController.softDeleteAdtAdmission
+);
+router.get("/company-outstanding-report-details", authController.getCompanyOutstandingReportDetails);
+router.post(
+  "/company-outstanding-report-details/delete-many",
+  authController.softDeleteCompanyOutstandingReport
+);
+router.get("/package-status-report", authController.getPackageStatusReport);
+router.post(
+  "/package-status-report/delete-many",
+  authController.softDeletePackageStatusReport
+);
+router.get("/claimed-received-amount", authController.getClaimReceivedAmount);
+router.post(
+  "/soft-delete-received-amount/delete-many",
+  authController.softDeleteByReceivedAmount
+);
+router.get(
+  "/insurance-company-report",
+  authController.getInsuranceCompanyReport
+);
+router.post(
+  "/soft-delete-insurance-company/delete-many",
+  authController.softDeleteByInsuranceCompany
+);
+router.get(
+  "/company-outstanding-ageing-report-details",
+  authController.getCompanyOutstandingAgeingReportDetails
+);
+router.post(
+  "/company-outstanding-ageing-report-details/delete-many",
+  authController.softDeleteCompanyOutstandingAgeingReportDetails
+);
+router.get("/disallow-report", authController.getDisallowReport);
+router.get("/expired-patient-report", authController.getExpiredPatientReport);
 // module.exports = router;
 // // app.post('/api/login', loginUser);
 module.exports = router;

@@ -15,6 +15,7 @@ const claimSchema = new mongoose.Schema({
   claimAmount: Number,
   claimStatus: String,
   settleStatus: String,
+   isDeleted: { type: Boolean, default: false },
 }, { timestamps: true, collection: 'Claims' });
 
 module.exports = mongoose.model('Claim', claimSchema);

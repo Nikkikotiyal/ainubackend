@@ -1,15 +1,12 @@
-// const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 
-// const productionUrl = "mongodb://admin:AANP1985@69.62.80.20:27017/dbAINU?authSource=admin";
-// const localUrl = "mongodb://127.0.0.1:27017/NewDb";
+const productionUrl = "mongodb://ainuindia_user:Aanp20252030@69.62.80.20:27017/ainuindia_dms?authSource=admin";
 
-// mongoose
-//   .connect(localUrl, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//     serverSelectionTimeoutMS: 30000
-//   })
-//   .then(() => console.log("✅ Connected to MongoDBbb"))
-//   .catch(err => console.error("❌ Connection error:", err));
+mongoose
+  .connect(productionUrl, {
+    serverSelectionTimeoutMS: 30000
+  })
+  .then(() => console.log("✅ Connected to MongoDB"))
+  .catch(err => console.error("❌ Connection error:", err));
 
-// module.exports = mongoose;
+module.exports = mongoose;

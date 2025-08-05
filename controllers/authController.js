@@ -13,7 +13,13 @@ const RequestLog = require("../models/logmodel"); // ✅ Check this path
 const claim = require("../models/claim");
 const Specialty = require("../models/specility");
 const IPDischarge = require("../models/IP_Discharge");
-const CompanyOutstanding = require("../models/CompanyOutstandingAgeing");
+const CompanyOutstanding = require("../models/CompanyOutstandingReportDetails");
+const PackageStatusReport = require("../models/Package-Status-Report");
+const ClaimReceivedAmount = require("../models/claimReceivedAmountReport");
+const InsuranceCompanyReport = require("../models/insurance-company-report");
+const CompanyOutstandingAgeingReportDetails = require("../models/company-outstanding-ageing-report-details");
+const DisallowReport = require("../models/disallow-report");
+const ExpiredPatientReport = require("../models/expired-patient-report");
 const logRequest = async (emailOrUsername, remark) => {
   await RequestLog.create({
     method: "POST",
@@ -28,13 +34,26 @@ const logRequest = async (emailOrUsername, remark) => {
 exports.loginUser = async (req, res) => {
   const { emailOrUsername, password } = req.body;
   console.log("Request body:", req.body);
+  console.log("🔍 Searching for user with:", emailOrUsername);
 
   try {
+    // Check total users in database
+    const totalUsers = await User.countDocuments();
+    console.log("📊 Total users in database:", totalUsers);
+    
     const user = await User.findOne({
       $or: [{ Email: emailOrUsername }, { UserName: emailOrUsername }],
     });
+    
+    console.log("🔍 User found:", user ? "Yes" : "No");
+    if (user) {
+      console.log("📧 User Email:", user.Email);
+      console.log("👤 User Name:", user.UserName);
+      console.log("🗑️ Is Deleted:", user.isDeleted);
+    }
 
     if (!user) {
+      console.log("❌ No user found in database");
       await logRequest(
         emailOrUsername,
         "Login Attempt Failed - User Not Found"
@@ -492,55 +511,6 @@ exports.requestPasswordReset = async (req, res) => {
   }
 };
 
-// exports.verifyOtp = async (req, res) => {
-
-//   if (!Email) {
-//   console.log("❌ Email is missing from the request body!");
-//   return res.status(400).json({ message: "Email is required" });
-// }
-
-// console.log("📩 Received Email:", Email);
-//   try {
-//     const { Email, otp } = req.body;
-//     console.log("📩 Request Body:", req.body);
-//     console.log("🔍 Searching for email:", req.body.Email);
-
-//     // Find the user by email
-//     const user = await User.findOne({
-//       Email: { $regex: new RegExp(`^${Email}$`, "i") },
-//     });
-
-//     if (!user) {
-//       console.log("❌ No user found for email:", Email);
-//       return res.status(404).json({ message: "User not found" });
-//     }
-
-//     // Check if OTP matches
-//     if (user.otp !== otp) {
-//       return res.status(400).json({ message: "Invalid OTP" });
-//     }
-
-//     // Check if OTP is expired
-//     if (!user.otpExpires) {
-//       return res.status(400).json({ message: "OTP has expired" });
-//     }
-
-//     // Optionally: clear OTP after successful verification
-//     user.otp = undefined;
-//     user.otpExpires = undefined;
-//     await user.save();
-//     const token = jwt.sign({ userId: user._id }, "your_secret_key", {
-//       expiresIn: "24h",
-//     });
-//     res
-//       .status(200)
-//       .json({ message: "OTP verified successfully", token: token });
-//   } catch (error) {
-//     console.error("Error verifying OTP:", error);
-//     res.status(500).json({ message: "Server error" });
-//   }
-// };
-
 exports.verifyOtp = async (req, res) => {
   try {
     console.log("📩 Full Request Body:", req.body);
@@ -763,14 +733,39 @@ exports.getAdtAdmissionReport = async (req, res) => {
 
     const filter = {};
     if (City) {
-      filter.City = { $regex: new RegExp(City, "i") }; // case-insensitive match
+      filter["patient.city"] = { $regex: new RegExp(City, "i") };
     }
 
-    const data = await AdtAdmission.find(filter).limit(100);
+    const data = await AdtAdmission.find({
+      ...filter,
+      isDeleted: { $ne: true },
+    }).limit(500);
+
     res.status(200).json(data);
   } catch (error) {
-    console.error("Error fetching admission report:", error);
+    console.error("❌ Error fetching admission report:", error);
     res.status(500).json({ error: "Failed to fetch admission report" });
+  }
+};
+
+exports.softDeleteAdtAdmission = async (req, res) => {
+  const { reportIds } = req.body;
+
+  try {
+    const ids = reportIds.map((id) => new mongoose.Types.ObjectId(id)); // Convert to ObjectId
+
+    const result = await AdtAdmission.updateMany(
+      { _id: { $in: ids } },
+      { $set: { isDeleted: true } }
+    );
+
+    res.status(200).json({
+      message: "🗑️ ADT admission reports marked as deleted!",
+      modifiedCount: result.modifiedCount,
+    });
+  } catch (error) {
+    console.error("❌ Failed to soft delete ADT records:", error);
+    res.status(500).json({ error: "Internal Server Error" });
   }
 };
 
@@ -883,13 +878,38 @@ exports.deleteModule = async (req, res) => {
 exports.getClaims = async (req, res) => {
   try {
     const filters = req.query; // e.g., { claimNo: 'CIR/2025/...' }
-    const claims = await claim.find(filters);
+    const claims = await claim.find({ isDeleted: { $ne: true } });
     res.status(200).json(claims);
   } catch (err) {
     console.error("❌ Claim fetch error:", err);
     res
       .status(500)
       .json({ message: "Failed to retrieve claims", error: err.message });
+  }
+};
+
+exports.softDeleteClaimRaised = async (req, res) => {
+  const { reportIds } = req.body;
+
+  try {
+    const result = await claim.updateMany(
+      { _id: { $in: reportIds } },
+      { $set: { isDeleted: true } }
+    );
+
+    if (!result || result.modifiedCount === 0) {
+      return res
+        .status(404)
+        .json({ error: "No matching claims found or already deleted" });
+    }
+
+    res.status(200).json({
+      message: "🗑️ Claim records marked as deleted successfully!",
+      data: result,
+    });
+  } catch (error) {
+    console.error("❌ Failed to soft delete claim raised data:", error);
+    res.status(500).json({ error: "Internal Server Error" });
   }
 };
 
@@ -919,11 +939,41 @@ exports.addSpecility = async (req, res) => {
 exports.getIpDischarge = async (req, res) => {
   try {
     const reports = await IPDischarge.find({ isDeleted: { $ne: true } }).limit(
-      100
+      500
     );
     res.status(200).json(reports);
   } catch (err) {
     console.error("❌ Failed to fetch discharge reports:", err);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.getCompanyOutstandingReportDetails = async (req, res) => {
+  try {
+    const reports = await CompanyOutstanding.find({
+      isDeleted: { $ne: true },
+    }).limit(500);
+    res.status(200).json(reports);
+  } catch (error) {
+    console.error("❌ Error fetching company outstanding reports:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.softDeleteCompanyOutstandingReport = async (req, res) => {
+  const { reportIds } = req.body;
+
+  try {
+    await CompanyOutstanding.updateMany(
+      { _id: { $in: reportIds } },
+      { $set: { isDeleted: true } }
+    );
+
+    res.status(200).json({
+      message: "🗑️ Company outstanding ageing reports marked as deleted successfully!",
+    });
+  } catch (error) {
+    console.error("❌ Failed to soft delete company outstanding ageing reports:", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
 };
@@ -947,12 +997,149 @@ exports.softDeleteIpDischarge = async (req, res) => {
   }
 };
 
-exports.getCompanyOutstandingAgeing = async (req, res) => {
+exports.getPackageStatusReport = async (req, res) => {
   try {
-    const reports = await CompanyOutstanding.find().limit(100);
+    const reports = await PackageStatusReport.find({
+      isDeleted: { $ne: true },
+    }).limit(500);
     res.status(200).json(reports);
   } catch (error) {
-    console.error("❌ Error fetching company outstanding reports:", error);
+    console.error("❌ Error fetching package status reports:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.softDeletePackageStatusReport = async (req, res) => {
+  const { reportIds } = req.body;
+
+  try {
+    await PackageStatusReport.updateMany(
+      { _id: { $in: reportIds } },
+      { $set: { isDeleted: true } }
+    );
+
+    res
+      .status(200)
+      .json({ message: "🗑️ Reports marked as deleted successfully!" });
+  } catch (error) {
+    console.error("❌ Failed to soft delete package status reports:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.getClaimReceivedAmount = async (req, res) => {
+  try {
+    const reports = await ClaimReceivedAmount.find({
+      isDeleted: { $ne: true },
+    }).limit(500);
+    res.status(200).json(reports);
+  } catch (error) {
+    console.error("❌ Error fetching package status reports:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+// controllers/insuranceClaimController.js
+exports.softDeleteByReceivedAmount = async (req, res) => {
+  const { reportIds } = req.body;
+
+  try {
+    await ClaimReceivedAmount.updateMany(
+      { _id: { $in: reportIds } },
+      { $set: { isDeleted: true } }
+    );
+
+    res.status(200).json({
+      message:
+        "🗑️ Claims with matching received amounts marked as deleted successfully!",
+    });
+  } catch (error) {
+    console.error("❌ Failed to soft delete claims by received amount:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.getInsuranceCompanyReport = async (req, res) => {
+  try {
+    const reports = await InsuranceCompanyReport.find({
+      isDeleted: { $ne: true },
+    }).limit(10000);
+
+    res.status(200).json(reports);
+  } catch (error) {
+    console.error("❌ Error fetching insurance company reports:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.softDeleteByInsuranceCompany = async (req, res) => {
+  const { reportIds } = req.body;
+
+  try {
+    await InsuranceCompanyReport.updateMany(
+      { _id: { $in: reportIds } },
+      { $set: { isDeleted: true } }
+    );
+
+    res.status(200).json({
+      message: "🗑️ Insurance company reports marked as deleted successfully!",
+    });
+  } catch (error) {
+    console.error("❌ Failed to soft delete Insurance company reports:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.getCompanyOutstandingAgeingReportDetails = async (req, res) => {
+  try {
+    const reports = await CompanyOutstandingAgeingReportDetails.find({
+      isDeleted: { $ne: true },
+    }).limit(500);
+    res.status(200).json(reports);
+  } catch (error) {
+    console.error("❌ Error fetching company outstanding ageing report details:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.softDeleteCompanyOutstandingAgeingReportDetails = async (req, res) => {
+  const { reportIds } = req.body;
+
+  try {
+    await CompanyOutstandingAgeingReportDetails.updateMany(
+      { _id: { $in: reportIds } },
+      { $set: { isDeleted: true } }
+    );
+
+    res.status(200).json({
+      message: "🗑️ Company outstanding ageing report details marked as deleted successfully!",
+    });
+  } catch (error) {
+    console.error("❌ Failed to soft delete company outstanding ageing report details:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.getDisallowReport = async (req, res) => {
+  try {
+    const reports = await DisallowReport.find({
+      isDeleted: { $ne: true },
+    }).limit(500);
+    res.status(200).json(reports);
+  } catch (error) {
+    console.error("❌ Error fetching disallow reports:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+exports.getExpiredPatientReport = async (req, res) => {
+  try {
+    const reports = await ExpiredPatientReport.find({
+      isDeleted: { $ne: true },
+    }).limit(500);
+    res.status(200).json(reports);
+  } catch (error) {
+    console.error("❌ Error fetching expired patient reports:", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
 };
